@@ -28,7 +28,7 @@ namespace Auth2
         public void ConfigureServices(IServiceCollection services)
         {
             string connection = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<UserContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
 
             // установка конфигурации подключения
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -36,7 +36,14 @@ namespace Auth2
                 {
                     // Это свойство устанавливает относительный путь, по которому будет перенаправляться анонимный пользователь при доступе к ресурсам, для которых нужна аутентификация.
                     options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
+                    options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
                 });
+
+            services.AddAuthorization(opts => {
+                opts.AddPolicy("OnlyForUsers", policy => {
+                    policy.RequireClaim("company", "Microsoft");
+                });
+            });
 
             services.Configure<CookiePolicyOptions>(options =>
             {
@@ -68,7 +75,7 @@ namespace Auth2
 
             // чтобы аутентификация была встроена в конвейер обработки запроса
             app.UseAuthentication();
-
+            
             app.UseCookiePolicy();
 
             app.UseMvc(routes =>

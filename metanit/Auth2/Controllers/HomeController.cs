@@ -16,10 +16,16 @@ namespace Auth2.Controllers
             return View();
         }
 
-        [Authorize]
+        [Authorize(Roles = "admin, user")]
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        [Authorize(Policy = "OnlyForUsers")]
+        public IActionResult OnlyForUsers()
+        {
+            return View("Privacy");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

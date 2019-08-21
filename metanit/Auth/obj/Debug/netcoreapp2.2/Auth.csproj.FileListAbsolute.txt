@@ -29,3 +29,4 @@ D:\Projects\GitHubFree\asp-net-core-samples\metanit\Auth\obj\Debug\netcoreapp2.2
 D:\Projects\GitHubFree\asp-net-core-samples\metanit\Auth\obj\Debug\netcoreapp2.2\Auth.csproj.CopyComplete
 D:\Projects\GitHubFree\asp-net-core-samples\metanit\Auth\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
 D:\Projects\GitHubFree\asp-net-core-samples\metanit\Auth\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
+D:\Projects\GitHubFree\asp-net-core-samples\metanit\Auth\obj\Debug\netcoreapp2.2\Auth.csprojAssemblyReference.cache

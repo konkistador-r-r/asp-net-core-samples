@@ -7,4 +7,4 @@
 
 <p>Hello @User.Identity.Name</p>
 
-<p>Hello @User.Identity.Name</p>
+<p>Your role is - @User.FindFirst(x => x.Type == System.Security.Claims.ClaimsIdentity.DefaultRoleClaimType).Value</p>
