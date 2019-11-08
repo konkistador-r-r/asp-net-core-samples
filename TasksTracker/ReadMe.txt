@@ -1,0 +1,1 @@
+https://www.c-sharpcorner.com/article/creating-a-simple-checkboxlist-in-asp-net-core-mvc-with-new-tag-helpers/

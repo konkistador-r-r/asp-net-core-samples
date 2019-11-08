@@ -1,0 +1,25 @@
+﻿@model Web.ViewModel.TestView.TestViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Checkboxes list</h1>
+
+<form asp-controller="test" asp-action="Index" method="post" class="form-horizontal" role="form">
+    <div>
+        @for (var i = 0; i < Model.Checkboxes.Count; i++)
+        {
+            <div class="checkbox-inline">
+                <input type="checkbox" asp-for="@Model.Checkboxes[i].Checked" />
+                <label asp-for="@Model.Checkboxes[i].Checked">@Model.Checkboxes[i].Text</label>
+
+                <input type="hidden" asp-for="@Model.Checkboxes[i].Text" />
+                <input type="hidden" asp-for="@Model.Checkboxes[i].Value" />
+
+            </div>
+        }
+    </div>
+    <div>
+        <input id="Save" type="submit" value="submit" />
+    </div>
+</form>

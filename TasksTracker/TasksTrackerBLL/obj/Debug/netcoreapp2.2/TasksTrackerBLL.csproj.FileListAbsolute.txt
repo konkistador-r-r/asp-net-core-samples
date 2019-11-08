@@ -1,0 +1,10 @@
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\bin\Debug\netcoreapp2.2\TasksTrackerBLL.deps.json
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\bin\Debug\netcoreapp2.2\TasksTrackerBLL.runtimeconfig.json
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\bin\Debug\netcoreapp2.2\TasksTrackerBLL.runtimeconfig.dev.json
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\bin\Debug\netcoreapp2.2\TasksTrackerBLL.dll
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\bin\Debug\netcoreapp2.2\TasksTrackerBLL.pdb
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\obj\Debug\netcoreapp2.2\TasksTrackerBLL.csprojAssemblyReference.cache
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\obj\Debug\netcoreapp2.2\TasksTrackerBLL.AssemblyInfoInputs.cache
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\obj\Debug\netcoreapp2.2\TasksTrackerBLL.AssemblyInfo.cs
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\obj\Debug\netcoreapp2.2\TasksTrackerBLL.dll
+D:\Projects\GitHubFree\asp-net-core-samples\TasksTracker\TasksTrackerBLL\obj\Debug\netcoreapp2.2\TasksTrackerBLL.pdb
