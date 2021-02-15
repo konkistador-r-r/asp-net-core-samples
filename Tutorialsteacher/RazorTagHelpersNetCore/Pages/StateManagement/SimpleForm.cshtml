@@ -1,0 +1,144 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.StateManagement.SimpleFormModel
+@{
+    ViewData["Title"] = "SimpleForm";
+}
+
+<h1>SimpleForm</h1>
+
+<form class="form-horizontal" method="post">
+    <input type="hidden" asp-for="ContactId" />
+    <div class="form-group">
+        <label for="Name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" asp-for="Name">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" asp-for="Email">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Register</button>
+        </div>
+    </div>
+</form>
+
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        @* Doesn`t work like this, because link produce Get request and PageHandlers do not work like OnGetWithQueryStringParams only Post.:
+            <a asp-page-handler="WithQueryStringParams">RedirectToPage With QueryString and Route params</a>*@
+        <form method="post" asp-page-handler="WithQueryStringParams"><button class="btn btn-default">RedirectToPage With QueryString and Route params</button></form>
+    </div>
+</div>
+
+<script>
+    // Use Web Storage API instead of Cookie for storing large amounts of data. 
+    // Because Cookies are limited to around 4Kb in size each/per domain (depending on the browser)
+
+    // Web Storage concepts and usage
+    // https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+    // Using the Web Storage API
+    // https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
+
+    // The Web Storage API provides mechanisms by which browsers can securely store key/value pairs.
+    // Storage objects are simple key-value stores, similar to objects, but they stay intact through page loads. 
+    // The keys and the values are always strings, other types automatically converted to strings.
+
+    // The two mechanisms within Web Storage are as follows:
+    // Window.sessionStorage 
+    //      maintains a separate storage area for each given origin that's 
+    //      available for the duration of the page session(as long as the browser is open, 
+    //      including page reloads and restores).
+    // Window.localStorage 
+    //      does the same thing, but persists even when the browser is closed and reopened.
+    // Developer can create his own instances of WindowLocalStorage and WindowSessionStorage objects.
+
+    // Feature-detecting localStorage
+    // Testing for availability is necessary only if you must support very old browsers, such as Internet Explorer 6 or 7, or in the limited circumstances described below.
+
+    // DEMO - This example is designed to demonstrate usage of the W3C Web Storage API.
+    // https://mdn.github.io/dom-examples/web-storage/
+    // Source-code: https://github.com/mdn/dom-examples/tree/master/web-storage
+
+    // When you choose different options, the page is instantly updated; 
+    // in addition, your choices are stored in localStorage, 
+    // so that when you leave the page and load it again, later on, your choices are remembered.
+
+    // you'll see the updated storage information outputted as a StorageEvent is fired.
+    // The storage event is fired on a document's Window object when a storage area changes.
+
+    // set localStorage value
+    // These three lines all set the (same) colorSetting entry
+    // It's recommended to use the Web Storage API (setItem, getItem, removeItem, key, length) 
+    // to prevent the pitfalls associated with using plain objects as key - value stores.
+    localStorage.colorSetting = '#a4509b';
+    localStorage['colorSetting'] = '#a4509b';
+    localStorage.setItem('colorSetting', '#a4509b');
+    localStorage.removeItem('colorSetting'); // removes it from the storage
+    localStorage.clear(); // empties the entire storage
+
+
+    // workflow
+    // set value
+    localStorage.setItem('bgcolor', '#a4509b');
+    // get value
+    var bgcolor = localStorage.getItem('bgcolor');
+    // You could also use Storage.length to test whether the storage object is empty or not
+    //console.log("localStorage.length: " + localStorage.length);
+    console.log("localStorage.length: %s", localStorage.length);
+    //var var1 = "val1";
+    //console.log(`p1: ${var1}`);
+
+    // Responding to storage changes with the StorageEvent 
+    // (note that this event is not fired for sessionStorage changes)
+    // This won't work on the same page that is making the changes — 
+    // it is really a way for other pages on the domain using the storage to sync any changes that are made.
+    // Pages on other domains can't access the same storage objects.
+    // Task like: change color at all opened user pages
+    window.addEventListener('storage', function (e) {
+        if (e.key == "bgcolor") {
+            console.log('.my-key', e.key);
+            console.log('.my-old', e.oldValue);
+            console.log('.my-new', e.newValue);
+            console.log('.my-url', e.url);
+            console.log('.my-storage', JSON.stringify(e.storageArea));
+        }        
+    });
+    // This won't work on the same page that is making the changes
+    // localStorage.setItem('bgcolor', '#a4509a');
+
+    // prevent window reopening. However in  the child page link to window.opener is correct even after refresh.
+    var isOpened = sessionStorage.getItem("dctTestWinOpened");
+    if (isOpened == null) {
+        var pageUri = "@Url.Content("~/StateManagement/WebStorageChangeDictionaryListPage")";
+        var argsUri = "?key=&callback=getStorageValuesAfterChange";
+        window.open(pageUri + argsUri);
+        sessionStorage.setItem("dctTestWinOpened", "true");
+    }
+    
+
+    function getStorageValuesAfterChange() {
+        console.log(localStorage.getItem('PageNameOrId.ControlId1'));
+        //console.log(sessionStorage.getItem('PageNameOrId.ControlId2')); - sessionStorage store data only for this page!
+
+        sessionStorage.removeItem("dctTestWinOpened");
+    }
+
+
+    // Note: From Firefox 45 onwards, when the browser crashes/restarts, the amount of data saved per origin is limited to 10MB. 
+    // This has been done to avoid memory issues caused by excessive usage of web storage.
+
+    // Note: Access to Web Storage from third-party IFrames is denied if the user has disabled third-party cookies 
+    // (Firefox implements this behaviour from version 43 onwards.)
+
+    // Async / Awai
+    // https://www.sitepoint.com/delay-sleep-pause-wait/
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+</script>

@@ -1,0 +1,14 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern2\bin\Debug\AbstractFactoryPattern2.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern2\bin\Debug\AbstractFactoryPattern2.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern2\bin\Debug\AbstractFactoryPattern2.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern2\bin\Debug\FactoryMethodPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern2\bin\Debug\FactoryMethodPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern2\obj\Debug\AbstractFactoryPattern2.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern2\obj\Debug\AbstractFactoryPattern2.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern2\obj\Debug\AbstractFactoryPattern2.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\AbstractFactoryPattern\AbstractFactoryPattern2\bin\Debug\AbstractFactoryPattern2.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\AbstractFactoryPattern\AbstractFactoryPattern2\bin\Debug\AbstractFactoryPattern2.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\AbstractFactoryPattern\AbstractFactoryPattern2\bin\Debug\AbstractFactoryPattern2.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\AbstractFactoryPattern\AbstractFactoryPattern2\obj\Debug\AbstractFactoryPattern2.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\AbstractFactoryPattern\AbstractFactoryPattern2\obj\Debug\AbstractFactoryPattern2.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\AbstractFactoryPattern\AbstractFactoryPattern2\obj\Debug\AbstractFactoryPattern2.pdb

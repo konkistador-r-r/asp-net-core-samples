@@ -1,0 +1,12 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TemplateMethodPattern\bin\Debug\TemplateMethodPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TemplateMethodPattern\bin\Debug\TemplateMethodPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TemplateMethodPattern\bin\Debug\TemplateMethodPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TemplateMethodPattern\obj\Debug\TemplateMethodPattern.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TemplateMethodPattern\obj\Debug\TemplateMethodPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TemplateMethodPattern\obj\Debug\TemplateMethodPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\TemplateMethodPattern\bin\Debug\TemplateMethodPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\TemplateMethodPattern\bin\Debug\TemplateMethodPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\TemplateMethodPattern\bin\Debug\TemplateMethodPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\TemplateMethodPattern\obj\Debug\TemplateMethodPattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\TemplateMethodPattern\obj\Debug\TemplateMethodPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\TemplateMethodPattern\obj\Debug\TemplateMethodPattern.pdb

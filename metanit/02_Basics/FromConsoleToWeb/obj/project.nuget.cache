@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "IeQA27E+NvZ4eJ4lgR/LwWuLHzg4zyhoB+Y4boqlZCzm23GTDL1n5LIbnmxKuBIXECr6VTnDtrZYQu2N49L65A==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\GitHubFree\\asp-net-core-samples\\metanit\\02_Basics\\FromConsoleToWeb\\FromConsoleToWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stanislav.vlasenko\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\stanislav.vlasenko\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\stanislav.vlasenko\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\stanislav.vlasenko\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

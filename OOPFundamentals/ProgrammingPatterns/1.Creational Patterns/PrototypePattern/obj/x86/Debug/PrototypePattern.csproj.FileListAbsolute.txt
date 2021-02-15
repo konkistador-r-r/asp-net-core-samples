@@ -1,0 +1,14 @@
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\bin\Debug\PrototypePattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\bin\Debug\PrototypePattern.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\obj\x86\Debug\PrototypePattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\obj\x86\Debug\PrototypePattern.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\obj\x86\Debug\PrototypePattern.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\obj\x86\Debug\PrototypePattern.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\bin\Debug\PrototypePattern.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\bin\Debug\PrototypePattern.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\bin\Debug\PrototypePattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\bin\Debug\PrototypePattern.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\obj\x86\Debug\PrototypePattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\obj\x86\Debug\PrototypePattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\PrototypePattern\obj\x86\Debug\PrototypePattern.csprojResolveAssemblyReference.cache

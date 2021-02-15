@@ -1,0 +1,169 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.TagHelpersSamples.PartialTagHelperSampleModel
+@namespace RazorTagHelpersNetCore.Pages.TagHelpersSamples.ComplexPage
+@{
+    ViewData["IsNumberReadOnly"] = true;
+}
+
+<h2>Products</h2>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Product</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <!-- <snippet_TagHelper> -->
+        @foreach (var product in Model.Products)
+        {
+            var rowIndex = Model.Products.IndexOf(product) + 1;
+            <tr>
+                <td>#@rowIndex</td>
+                <td>
+                    <partial name="TagHelpersSamples/ComplexPage/_ProductTableRowCustomizeablePartialView" model="product" view-data="ViewData" />
+                </td>
+            </tr>
+        }
+        <!-- </snippet_TagHelper> -->
+    </tbody>
+</table>
+<br />
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Product</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- <snippet_HtmlHelper> -->
+        @foreach (var product in Model.Products)
+        {
+            var rowIndex = Model.Products.IndexOf(product) + 1;
+            <tr>
+                <td>#@rowIndex</td>
+                <td>
+                    @await Html.PartialAsync("TagHelpersSamples/ComplexPage/_ProductTableRowCustomizeablePartialView", product, ViewData)
+                </td>
+            </tr>
+        }
+        <!-- </snippet_HtmlHelper> -->
+    </tbody>
+</table>
+<br />
+<table class="table table-hover">
+    <caption>Partial Tag Helper attribute examples</caption>
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Markup</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>name/for</td>
+            <td>
+                <code>
+                    @Html.Raw(Html.Encode(@"<partial name=""_ProductTableRowPartialView"" for=""Product"">"))
+                </code>
+            </td>
+            <td>
+                <!-- <snippet_For> -->
+                <partial name="_ProductTableRowPartialView" for="Product">
+                    <!-- </snippet_For> -->
+            </td>
+        </tr>
+        <tr>
+            <td>model</td>
+            <td>
+                <code>
+                    @Html.Raw(Html.Encode(@"<partial name=""_ProductTableRowPartialView"" model='new Product { Number = 1, Name = ""Test product"", Description=""This is a test"" }'>"))
+                </code>
+            </td>
+            <td>
+                <!-- <snippet_Model> -->
+                <partial name="_ProductTableRowPartialView"
+                         model='new Product { Number = 1, Name = "Test product", Description = "This is a test" }'>
+                    <!-- </snippet_Model> -->
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<p>
+    <button class="btn btn-primary" id="refreshProduct">Refresh Products</button>
+    <button class="btn btn-primary" id="createProduct">Create Product</button>
+</p>
+<h2>Products</h2>
+
+<div class="products-table-panel">
+    <partial name="_ProductsTablePartialView" for="Products">
+</div>
+
+@section scripts{
+    <script>
+        $(function () {
+            $('#refreshProduct').on('click', function (e) {
+                e.preventDefault();
+                $(this).blur();
+
+                getProducts(drawProducts, window);
+            });
+            $('#createProduct').on('click', function (e) {
+                e.preventDefault();
+                $(this).blur();
+
+                createProduct(drawProducts, window);
+            });
+        });
+
+        function getProducts(callback, scope) {
+            ajaxProvider("GET", './PartialTagHelperSample?handler=ProductsPartial', null, function (response) {
+                callback.call(scope, response);
+            }, function (jqXHR, textStatus, errorThrown) {
+                console.log(errorThrown);
+            }, this, undefined, undefined, "text");
+        }
+        function createProduct(callback, scope) {
+            ajaxProvider("GET", './PartialTagHelperSample?handler=AddProductPartial', { number: 1, name: "Test product", description: "This is a test" }, function (response) {
+                callback.call(scope, response);
+            }, function (jqXHR, textStatus, errorThrown) {
+                console.log(errorThrown);
+            }, this, undefined, undefined, "text");
+        }
+
+        function drawProducts(products) {
+            console.log(products);
+            $(".products-table-panel").html(products);
+        }
+
+        function ajaxProvider(type, url, data, successCallback, errorCallback, scope, contentType, async, responceDataType) {
+            if (window.jQuery) {
+                $.ajax({
+                    type: type,
+                    url: url,
+                    data: data,
+                    contentType: contentType || "application/json; charset=utf-8",
+                    dataType: responceDataType || "json",
+                    cache: false,
+                    success: function (response) {
+                        if (successCallback) {
+                            successCallback.call(scope, response);
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        if (errorCallback) {
+                            errorCallback.apply(scope, arguments);
+                        }
+                    },
+                    async: async == undefined ? true : false, //blocks window close
+                });
+            } else {
+                console.log("jQuery is not loaded");
+            }
+
+        };
+    </script>
+}

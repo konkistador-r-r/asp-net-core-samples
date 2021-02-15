@@ -1,0 +1,24 @@
+D:\My Dropbox\DEVELOPER\OOPFundamentals\OOPFundamentals\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Dropbox\DEVELOPER\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.exe
+D:\My Dropbox\DEVELOPER\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.pdb
+D:\My Dropbox\DEVELOPER\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.exe
+D:\My Dropbox\DEVELOPER\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.pdb
+D:\DropBox\DEVELOPER\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.exe
+D:\DropBox\DEVELOPER\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.pdb
+D:\DropBox\DEVELOPER\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.exe
+D:\DropBox\DEVELOPER\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.pdb
+D:\DropBox\DEVELOPER\OOPFundamentals\OOPFundamentals\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\bin\Debug\OOPFundamentals.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\OOPFundamentals\obj\x86\Debug\OOPFundamentals.csprojResolveAssemblyReference.cache

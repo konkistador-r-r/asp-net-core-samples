@@ -1,0 +1,50 @@
+﻿@page "{handler?}"
+@model RazorPages.Pages.IndexModel
+@using RazorPages.Models
+@{
+    ViewBag.Title = "Index";
+}
+
+<p>Hello from Index page</p>
+
+<p>Передача обработчика через параметр строки запроса</p>
+<p><a href="Index?handler=ByName&name=Tom">Filter Table By Name</a></p>
+<p><a href="Index?handler=ByAge&age=23">Filter Table By Age</a></p>
+<p><a href="Index?handler=ContactByName&name=Tom">Filter Table By Name</a></p>
+
+<p>Передача обработчика через параметр маршрута</p>
+<p><a href="../ByName?name=Tom">Filter Table By Name</a></p>
+<p><a href="../Index/ByAge?age=23">Filter Table By Age</a></p>
+
+
+<p>Обработка форм и запросов POST</p>
+<form method="POST">
+    @Html.AntiForgeryToken()
+    <input type="number" name="age" />
+    <input type="submit" asp-page-handler="GreaterThan" value="Старше" />
+    <input type="submit" asp-page-handler="LessThan" value="Младше" />
+</form>
+
+<h2>Список пользователей</h2>
+<p><a href="Index">Refresh Table</a></p>
+<table class="table">
+    <tr><td>Name</td><td>Age</td></tr>
+    @foreach (Contact contact in Model.DisplayedContact)
+    {
+        <tr>
+            <td>@contact.Name</td>
+            <td>@contact.Age</td>
+        </tr>
+    }
+</table>
+
+<h2>Информация о пользователе</h2>
+<p>Name = @Model.FoundContact?.Name</p>
+<p>Age = @Model.FoundContact?.Age</p>
+
+
+<h2>Переадресация и создание ссылок в Razor Pages</h2>
+<a asp-page="Products/Index">Products</a>
+
+<h2>Создание и вывод из базы данных в Razor Pages</h2>
+<a asp-page="People/Index">People</a>

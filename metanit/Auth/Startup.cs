@@ -66,8 +66,7 @@ namespace Auth
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            // чтобы аутентификация была встроена в конвейер обработки запроса
-            app.UseAuthentication();
+            app.UseAuthentication();    // аутентификация
 
             app.UseCookiePolicy();
 

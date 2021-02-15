@@ -1,0 +1,14 @@
+<Modules>
+  <Module PersistentId="91491056-694F-480F-AABA-CDC1C66EC6DA" ModuleId="OOPFundamentals" />
+  <Module PersistentId="ACE4C687-A66D-4E32-96C5-AC08EFB333DF" ModuleId="Lessons" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="mscorlib" />
+  <Module PersistentId="F24B66AC-77DB-4174-BE14-4B803D213D63" ModuleId="TrialTest" />
+  <Module PersistentId="10DCB43F-7FBE-4389-8A3F-4FC7E3056248" ModuleId="TrialTest2" />
+  <Module PersistentId="F812FA82-2FD2-41AC-9023-1A15BF237627" ModuleId="AbstractFactoryPattern" />
+  <Module PersistentId="C05F4EA7-2D7A-4EAA-A3DA-22E2678553A6" ModuleId="BuilderPattern" />
+  <Module PersistentId="6129C2FE-14DA-4FCC-A431-5221682BFED6" ModuleId="SingletonPattern" />
+  <Module PersistentId="CA6CB5F9-C0A4-4DD2-B53C-6E6765E305BE" ModuleId="VirtualConstructorPattern" />
+  <Module PersistentId="BC67C1E4-1551-48DA-976E-29F8286ED0F8" ModuleId="PrototypePattern" />
+  <Module PersistentId="907E5CDE-A18E-402C-AA5C-15CEA59F92D9" ModuleId="CommandPattern_1" />
+  <Module PersistentId="6F843DF0-AB4A-479C-BFCA-789CD55B20DD" ModuleId="WorkingWithThreads" />
+</Modules>

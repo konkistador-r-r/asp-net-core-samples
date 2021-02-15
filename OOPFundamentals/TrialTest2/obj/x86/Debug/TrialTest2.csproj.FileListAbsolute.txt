@@ -1,0 +1,14 @@
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\bin\Debug\TrialTest2.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\bin\Debug\TrialTest2.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\obj\x86\Debug\TrialTest2.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\obj\x86\Debug\TrialTest2.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\bin\Debug\TrialTest2.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\bin\Debug\TrialTest2.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\obj\x86\Debug\TrialTest2.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\obj\x86\Debug\TrialTest2.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\bin\Debug\TrialTest2.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\bin\Debug\TrialTest2.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\obj\x86\Debug\TrialTest2.csprojResolveAssemblyReference.cache
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\obj\x86\Debug\TrialTest2.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\TrialTest2\obj\x86\Debug\TrialTest2.pdb

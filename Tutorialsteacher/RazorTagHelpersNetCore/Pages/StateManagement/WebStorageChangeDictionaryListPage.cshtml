@@ -1,0 +1,36 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.StateManagement.WebStorageChangeDictionaryListPageModel
+@{
+    ViewData["Title"] = "WebStorageChangeDictionaryListPage";
+}
+
+<h1>WebStorageChangeDictionaryListPage</h1>
+
+Key: <b>@Request.Query["key"]</b>
+<br/>
+
+<button onclick="setSelected()">Select Dictionary Value</button>
+
+<script>
+    function setSelected() {
+        // Test StorageEvent
+        localStorage.setItem('bgcolor', '#a4509a');
+
+        localStorage.setItem('PageNameOrId.ControlId1', 'selected-dictionary1-value2');
+
+        // sessionStorage.setItem('PageNameOrId.ControlId2', 'selected-dictionary2-value2'); - sessionStorage store data only for this page!
+
+        // notify opener
+        var callbackName = undefined;
+        // get url param: not in IE11 only Edge and other modern
+        var url = new URL(window.location.href);
+        var searchParams = new URLSearchParams(url.search);
+        if (searchParams.has("callback")) {
+            callbackName = searchParams.get("callback");
+        }
+        var canCall = callbackName && window.opener && typeof window.opener[callbackName] === "function";
+        canCall && window.opener[callbackName](); // do not pass any thing, pass via sessionStorage
+
+        window.close();
+    }
+</script>

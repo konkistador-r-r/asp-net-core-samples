@@ -1,0 +1,13 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\MediatorPattern\bin\Debug\MediatorPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\MediatorPattern\bin\Debug\MediatorPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\MediatorPattern\bin\Debug\MediatorPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\MediatorPattern\obj\Debug\MediatorPattern.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\MediatorPattern\obj\Debug\MediatorPattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\MediatorPattern\obj\Debug\MediatorPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\MediatorPattern\obj\Debug\MediatorPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\MediatorPattern\bin\Debug\MediatorPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\MediatorPattern\bin\Debug\MediatorPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\MediatorPattern\bin\Debug\MediatorPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\MediatorPattern\obj\Debug\MediatorPattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\MediatorPattern\obj\Debug\MediatorPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\MediatorPattern\obj\Debug\MediatorPattern.pdb

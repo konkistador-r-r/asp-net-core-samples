@@ -1,0 +1,12 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\FactoryMethodPattern\bin\Debug\FactoryMethodPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\FactoryMethodPattern\bin\Debug\FactoryMethodPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\FactoryMethodPattern\bin\Debug\FactoryMethodPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\FactoryMethodPattern\obj\Debug\FactoryMethodPattern.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\FactoryMethodPattern\obj\Debug\FactoryMethodPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\FactoryMethodPattern\obj\Debug\FactoryMethodPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\FactoryMethodPattern\FactoryMethodPattern\bin\Debug\FactoryMethodPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\FactoryMethodPattern\FactoryMethodPattern\bin\Debug\FactoryMethodPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\FactoryMethodPattern\FactoryMethodPattern\bin\Debug\FactoryMethodPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\FactoryMethodPattern\FactoryMethodPattern\obj\Debug\FactoryMethodPattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\FactoryMethodPattern\FactoryMethodPattern\obj\Debug\FactoryMethodPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\1.Creational Patterns\FactoryMethodPattern\FactoryMethodPattern\obj\Debug\FactoryMethodPattern.pdb

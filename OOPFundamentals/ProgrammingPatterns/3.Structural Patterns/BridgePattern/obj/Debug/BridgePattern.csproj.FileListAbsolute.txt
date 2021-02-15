@@ -1,0 +1,13 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BridgePattern\bin\Debug\BridgePattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BridgePattern\bin\Debug\BridgePattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BridgePattern\bin\Debug\BridgePattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BridgePattern\obj\Debug\BridgePattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BridgePattern\obj\Debug\BridgePattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BridgePattern\obj\Debug\BridgePattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BridgePattern\obj\Debug\BridgePattern.csprojAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\3.Structural Patterns\BridgePattern\bin\Debug\BridgePattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\3.Structural Patterns\BridgePattern\bin\Debug\BridgePattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\3.Structural Patterns\BridgePattern\bin\Debug\BridgePattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\3.Structural Patterns\BridgePattern\obj\Debug\BridgePattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\3.Structural Patterns\BridgePattern\obj\Debug\BridgePattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\3.Structural Patterns\BridgePattern\obj\Debug\BridgePattern.pdb

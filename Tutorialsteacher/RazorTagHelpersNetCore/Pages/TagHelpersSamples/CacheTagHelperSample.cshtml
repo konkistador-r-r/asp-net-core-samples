@@ -1,0 +1,52 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.TagHelpersSamples.CacheTagHelperSampleModel
+@{
+    ViewData["Title"] = "CacheTagHelperSample";
+}
+@using Microsoft.Extensions.Caching.Memory
+
+<h1>CacheTagHelperSample</h1>
+
+@*The cache tag helper is enabled by default*@
+@*If you don't provide values for any of the expires-* attributes, your item will be cached without an expiration date,
+    meaning that it will only expire when the memory store is cleared.*@
+@Html.Raw("Cashe for unpredicted time")
+<cache>@DateTime.Now</cache>
+<br />
+
+@*Can by set by condition*@
+@*Items with High priority will be the last to be removed: NeverRemove, High, Normal, Low*@
+@Html.Raw("Cashe on Sundays only for unpredicted time")
+<cache enabled="DateTime.Now.DayOfWeek == DayOfWeek.Sunday" priority="CacheItemPriority.High">@DateTime.Now</cache>
+<br />
+
+@*The expires-after attribute takes a TimeSpan value that represents the period of time that the item should be stored in the cache.
+    This example shows the item being stored for 1 hour:*@
+@Html.Raw("Cashe expires after a 1 minute")
+<cache expires-after="TimeSpan.FromMinutes(1)">@DateTime.Now</cache>
+<br />
+
+@*Look like doesn`t work correctly*@
+@*The expires-on attribute takes a DateTimeOffset value that specifies the absolute expiry time of an item.
+    This item is set to expire at 8:15 am on Dec 2 2017 UTC:*@
+@Html.Raw("Cashe expires on: " + DateTime.Now.AddDays(1).ToShortDateString())
+<cache expires-on="new DateTimeOffset(DateTime.Now.AddDays(1))">@DateTime.Now</cache>
+<br />
+
+@*As each request is made for the cached item, the expiration time is reset to 20 minutes after the request.*@
+@Html.Raw("Cache expires in 1 minute after the last time the page was requested:")
+<cache expires-sliding="TimeSpan.FromMinutes(1)">@DateTime.Now</cache>
+<br />
+
+@*You can cache multiple versions of the same content based on different criteria.
+Specify the criteria to determine whether to store another version of existing cached content.*@
+@Html.Raw("Cache multiple versions of the same content based on different criteria, e.g. url param id value")
+<cache vary-by-query="id" expires-after="TimeSpan.FromMinutes(1)">@DateTime.Now</cache>
+@*The attribute has a number of preset options:
+    vary-by-cookie: vary-by-cookie="AppCookie1, AppCookie2"
+    vary-by-header: vary-by-header="Accept-Language"
+    vary-by-query: vary-by-query="id"
+    vary-by-route: vary-by-route="key1, key2"
+    vary-by-user: vary-by-user="true"
+    By any String content: vary-by="@Model.Id"
+*@

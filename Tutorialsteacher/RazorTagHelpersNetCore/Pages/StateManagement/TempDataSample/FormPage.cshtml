@@ -1,0 +1,13 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.StateManagement.TempDataSample.FormPageModel
+@{
+    ViewData["Title"] = "FormPage";
+}
+
+<h1>FormPage</h1>
+
+<form method="post">
+    <input type="text" asp-for="EmailAddress" />
+    <span asp-validation-for="EmailAddress"></span><br />
+    <button>Submit</button>
+</form>

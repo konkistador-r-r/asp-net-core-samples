@@ -1,0 +1,6 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Agile\CofeeMaker\obj\Debug\CofeeMaker.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Agile\CofeeMaker\bin\Debug\CofeeMaker.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Agile\CofeeMaker\bin\Debug\CofeeMaker.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Agile\CofeeMaker\bin\Debug\CofeeMaker.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Agile\CofeeMaker\obj\Debug\CofeeMaker.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Agile\CofeeMaker\obj\Debug\CofeeMaker.pdb

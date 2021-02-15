@@ -1,0 +1,13 @@
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\bin\Debug\SingletonPattern.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\bin\Debug\SingletonPattern.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\obj\x86\Debug\SingletonPattern.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\obj\x86\Debug\SingletonPattern.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\obj\x86\Debug\SingletonPattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\obj\x86\Debug\SingletonPattern.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\bin\Debug\SingletonPattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\bin\Debug\SingletonPattern.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\bin\Debug\SingletonPattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\bin\Debug\SingletonPattern.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\obj\x86\Debug\SingletonPattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\SingletonPattern\obj\x86\Debug\SingletonPattern.pdb

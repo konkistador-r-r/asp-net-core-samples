@@ -1,0 +1,7 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\WCFSamples\HelloWCF\Client\bin\Debug\Client.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\WCFSamples\HelloWCF\Client\bin\Debug\Client.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\WCFSamples\HelloWCF\Client\bin\Debug\Client.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\WCFSamples\HelloWCF\Client\obj\Debug\Client.csprojAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\WCFSamples\HelloWCF\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\WCFSamples\HelloWCF\Client\obj\Debug\Client.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\WCFSamples\HelloWCF\Client\obj\Debug\Client.pdb

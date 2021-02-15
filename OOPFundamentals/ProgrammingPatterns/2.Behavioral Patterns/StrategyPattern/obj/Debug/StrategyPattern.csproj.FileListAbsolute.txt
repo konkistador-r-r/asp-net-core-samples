@@ -1,0 +1,12 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StrategyPattern\bin\Debug\StrategyPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StrategyPattern\bin\Debug\StrategyPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StrategyPattern\bin\Debug\StrategyPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StrategyPattern\obj\Debug\StrategyPattern.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StrategyPattern\obj\Debug\StrategyPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StrategyPattern\obj\Debug\StrategyPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StrategyPattern\bin\Debug\StrategyPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StrategyPattern\bin\Debug\StrategyPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StrategyPattern\bin\Debug\StrategyPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StrategyPattern\obj\Debug\StrategyPattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StrategyPattern\obj\Debug\StrategyPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StrategyPattern\obj\Debug\StrategyPattern.pdb

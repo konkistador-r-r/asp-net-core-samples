@@ -1,0 +1,27 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.InputControlsModel
+@{
+    ViewData["Title"] = "InputControls";
+}
+
+<h1>InputControls</h1>
+
+<form method="post">
+    <p>
+        <label asp-for="MovieName" class=""></label>
+        <!-- code that declares validation -->
+        <input asp-for="MovieName" id="MovieName" name="MovieName" class="form-control" data-val-required="The Name field is required." data-val="true" />
+        <span asp-validation-for="MovieName" class="text-danger"></span>
+        <br />
+        <input type="submit" value="Submit" />
+        <br />
+        <label asp-for="PostedValue" class=""></label>: @Model.PostedValue
+    </p>
+</form>
+
+
+
+<!-- code that do validation -->
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,45 @@
+D:\DropBox\DEVELOPER\OOPFundamentals\Lessons\bin\Debug\Lessons.exe
+D:\DropBox\DEVELOPER\OOPFundamentals\Lessons\bin\Debug\Lessons.pdb
+D:\DropBox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DropBox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe
+D:\DropBox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.pdb
+D:\My Dropbox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe
+D:\My Dropbox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.pdb
+D:\My Dropbox\DEVELOPER\OOPFundamentals\Lessons\bin\Debug\Lessons.exe
+D:\My Dropbox\DEVELOPER\OOPFundamentals\Lessons\bin\Debug\Lessons.pdb
+D:\My Dropbox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DropBox\DEVELOPER\OOPFundamentals\Lessons\bin\Debug\Lessons.exe.manifest
+D:\DropBox\DEVELOPER\OOPFundamentals\Lessons\bin\Debug\Lessons.application
+D:\DropBox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe.manifest
+D:\DropBox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.application
+D:\My Dropbox\DEVELOPER\OOPFundamentals\Lessons\bin\Debug\Lessons.exe.manifest
+D:\My Dropbox\DEVELOPER\OOPFundamentals\Lessons\bin\Debug\Lessons.application
+D:\My Dropbox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe.manifest
+D:\My Dropbox\DEVELOPER\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.application
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.exe.manifest
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.application
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe.manifest
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.application
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.exe.manifest
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.application
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe.manifest
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.application
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.exe.manifest
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.application
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\bin\Debug\Lessons.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.csprojResolveAssemblyReference.cache
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.exe.manifest
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.application
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Lessons\obj\x86\Debug\Lessons.csprojResolveAssemblyReference.cache

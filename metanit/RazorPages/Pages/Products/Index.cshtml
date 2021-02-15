@@ -1,0 +1,18 @@
+﻿@page
+@model RazorPages.Pages.Products.IndexModel
+@{
+    ViewBag.Title = "Products";
+}
+
+<h2>Products table</h2>
+
+<p>
+    <a asp-page="Edit">Create</a>
+    <a href='@Url.Page("Edit", new { Id = Guid.NewGuid(), Name = "Table" })'>Edit</a>
+    <a asp-page="Edit" asp-route-id="2a21a455-9f7d-4164-a1b6-962ce13acb85" asp-route-name="Table">Edit 2</a>
+</p>
+
+<p>
+    <a asp-page-handler="RedirectToCreate">Redirect to Create</a>
+    <a asp-page-handler="RedirectToEdit">Redirect to Edit</a>
+</p>

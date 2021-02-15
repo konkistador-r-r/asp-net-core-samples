@@ -1,0 +1,62 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.PageHandlerMethodsModel
+@{
+    ViewData["Title"] = "PageHandlerMethods";
+}
+
+<h1>PageHandlerMethods</h1>
+
+
+<fieldset>
+    <form method="get"><button class="btn btn-default">Click to get</button></form>
+
+    <form method="post"><button class="btn btn-default">Click to post</button></form>
+
+    @* Do not work like this
+        <form method="put"><button class="btn btn-default">Click to put</button></form>
+        <form method="delete"><button class="btn btn-default">Click to delete</button></form>*@
+
+    @* Do not work like this<form method="get" asp-page-handler="MyCustomHandler"><button class="btn btn-default">Click to Get MyCustomHandler</button></form>*@
+
+    <form method="post" asp-page-handler="MyCustomHandler"><button class="btn btn-default">Click to Post MyCustomHandler</button></form>
+
+    <p>Output of Message1: <b>@Model.Message</b></p>
+</fieldset>
+
+<fieldset>
+    <div class="row">
+        <div class="col-lg-1">
+            <form method="post" asp-page-handler="Edit">
+                <button class="btn btn-default">Edit</button>
+
+                <input type="hidden" name="myParamName" value="true" />
+            </form>
+        </div>
+        <div class="col-lg-1">
+            <form method="post" asp-page-handler="Delete" asp-route-myParamName="myParamVal">
+                <button class="btn btn-default">Delete</button>
+
+                @*<input type="hidden" name="myParamName" value="myParamVal" />*@
+            </form>
+        </div>
+        <div class="col-lg-1">
+            <form method="post" asp-page-handler="View">
+                <button class="btn btn-default">View</button>
+
+                <input type="hidden" name="id" value="3" />
+            </form>
+        </div>
+    </div>
+
+    <p>Output of Message3: <b>@Model.Message2</b></p>
+</fieldset>
+
+<fieldset>
+    <form method="post">
+        <button asp-page-handler="Register">Register Now</button>
+        <button asp-page-handler="RequestInfo">Request Info</button>
+    </form>
+
+    <p>Output of Message3: <b>@Model.Message3</b></p>
+</fieldset>
+

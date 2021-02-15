@@ -1,0 +1,13 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StatePattern\bin\Debug\StatePattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StatePattern\bin\Debug\StatePattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StatePattern\bin\Debug\StatePattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StatePattern\obj\Debug\StatePattern.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StatePattern\obj\Debug\StatePattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\StatePattern\obj\Debug\StatePattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StatePattern\bin\Debug\StatePattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StatePattern\bin\Debug\StatePattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StatePattern\bin\Debug\StatePattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StatePattern\obj\Debug\StatePattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StatePattern\obj\Debug\StatePattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StatePattern\obj\Debug\StatePattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\StatePattern\obj\Debug\StatePattern.csprojAssemblyReference.cache

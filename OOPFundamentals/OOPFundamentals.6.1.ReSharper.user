@@ -1,0 +1,399 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="91491056-694F-480F-AABA-CDC1C66EC6DA/f:Program.cs" caret="1293" fromTop="29" />
+      <File id="91491056-694F-480F-AABA-CDC1C66EC6DA/d:Patterns/f:Singleton.cs" caret="263" fromTop="10" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Attributes.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:ControlStatements.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:DelegatesAndEvents.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Structs.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Properties.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:OverloadingOperators.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Methods.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:OperationsTypes.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Loops.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Interfaces.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Indexers.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:ExceptionHandling.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Enums.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="3531" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Polymorphism.cs" caret="499" fromTop="8" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="620" fromTop="8" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Inheritance.cs" caret="3129" fromTop="83" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Program.cs" caret="1011" fromTop="33" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Polymorphism.cs" caret="1808" fromTop="21" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Polymorphism.cs" caret="2446" fromTop="17" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Polymorphism.cs" caret="2222" fromTop="15" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Polymorphism.cs" caret="3678" fromTop="42" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="5062" fromTop="23" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="6755" fromTop="13" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="6131" fromTop="14" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="7045" fromTop="29" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="7605" fromTop="38" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="1725" fromTop="24" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="1397" fromTop="18" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="2113" fromTop="34" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="1659" fromTop="21" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="5909" fromTop="25" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="8489" fromTop="31" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="7888" fromTop="28" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="3487" fromTop="21" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="2645" fromTop="14" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="2788" fromTop="18" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="3487" fromTop="28" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="9916" fromTop="25" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="9927" fromTop="37" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="9822" fromTop="37" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Encapsulation.cs" caret="620" fromTop="8" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Polymorphism.cs" caret="492" fromTop="5" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Polymorphism.cs" caret="499" fromTop="8" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Inheritance.cs" caret="78" fromTop="1" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Inheritance.cs" caret="3129" fromTop="23" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Program.cs" caret="1667" fromTop="38" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Program.cs" caret="1011" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False" />
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="30" />
+      <Item value="UriHostNameType`0" priority="0" />
+      <Item value="int" priority="17" />
+      <Item value="string" priority="15" />
+      <Item value="Enum`0" priority="1" />
+      <Item value="public" priority="60" />
+      <Item value="void" priority="21" />
+      <Item value="Console`0" priority="14" />
+      <Item value="Human`0" priority="2" />
+      <Item value="return" priority="13" />
+      <Item value="value" priority="7" />
+      <Item value="_age" priority="2" />
+      <Item value="IWork`0" priority="1" />
+      <Item value="using" priority="6" />
+      <Item value="Interfacrs" priority="1" />
+      <Item value="this" priority="4" />
+      <Item value="Sex`0" priority="1" />
+      <Item value="Mother`0" priority="1" />
+      <Item value="sex" priority="1" />
+      <Item value="_sex" priority="0" />
+      <Item value="new" priority="29" />
+      <Item value="virtual" priority="7" />
+      <Item value="override" priority="5" />
+      <Item value="Classes" priority="0" />
+      <Item value="var" priority="18" />
+      <Item value="Femail" priority="0" />
+      <Item value="mother" priority="1" />
+      <Item value="protected" priority="13" />
+      <Item value="_name" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="class" priority="13" />
+      <Item value="Triangle`0" priority="0" />
+      <Item value="triangle" priority="0" />
+      <Item value="FigureExample`0" priority="1" />
+      <Item value="list" priority="0" />
+      <Item value="foreach" priority="1" />
+      <Item value="delegate" priority="0" />
+      <Item value="father" priority="0" />
+      <Item value="MyDelegate" priority="0" />
+      <Item value="if" priority="2" />
+      <Item value="null" priority="6" />
+      <Item value="GoWithMother" priority="0" />
+      <Item value="Go`0" priority="0" />
+      <Item value="daughter" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="remove" priority="0" />
+      <Item value="EventHandler`0" priority="2" />
+      <Item value="zero" priority="0" />
+      <Item value="myBools" priority="0" />
+      <Item value="myDoubles" priority="0" />
+      <Item value="decimal" priority="0" />
+      <Item value="AwayFromZero" priority="0" />
+      <Item value="MidpointRounding`0" priority="0" />
+      <Item value="double" priority="2" />
+      <Item value="static" priority="25" />
+      <Item value="myInt" priority="0" />
+      <Item value="String`0" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="Methods`0" priority="0" />
+      <Item value="System" priority="9" />
+      <Item value="Lessons" priority="1" />
+      <Item value="AliasForNamespace" priority="0" />
+      <Item value="GC`0" priority="0" />
+      <Item value="byte" priority="0" />
+      <Item value="long" priority="0" />
+      <Item value="ID" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="size" priority="0" />
+      <Item value="enum" priority="0" />
+      <Item value="numbers" priority="0" />
+      <Item value="EnvironmentVariableTarget`0" priority="1" />
+      <Item value="switch" priority="0" />
+      <Item value="case" priority="0" />
+      <Item value="break" priority="0" />
+      <Item value="count" priority="1" />
+      <Item value="is" priority="0" />
+      <Item value="arrSize" priority="0" />
+      <Item value="i" priority="0" />
+      <Item value="out" priority="2" />
+      <Item value="result" priority="0" />
+      <Item value="ref" priority="1" />
+      <Item value="internal" priority="2" />
+      <Item value="namespace" priority="1" />
+      <Item value="abstract" priority="6" />
+      <Item value="sealed" priority="3" />
+      <Item value="base" priority="3" />
+      <Item value="explicit" priority="0" />
+      <Item value="extern" priority="0" />
+      <Item value="WeakReference`0" priority="0" />
+      <Item value="MethodModifiers`0" priority="0" />
+      <Item value="readonly" priority="0" />
+      <Item value="OOPFundamentals" priority="0" />
+      <Item value="Patterns" priority="0" />
+      <Item value="Singleton`0" priority="0" />
+      <Item value="rectangleClass" priority="0" />
+      <Item value="RectangleClass" priority="0" />
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="1" />
+      <Item value="RectangleStruct" priority="0" />
+      <Item value="Base64FormattingOptions`0" priority="1" />
+      <Item value="Eventdemo`0" priority="0" />
+      <Item value="Form`0" priority="0" />
+      <Item value="event" priority="0" />
+      <Item value="notifier" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="b" priority="0" />
+      <Item value="Matrix`0" priority="0" />
+      <Item value="operator" priority="0" />
+      <Item value="matrix" priority="1" />
+      <Item value="matrix1" priority="0" />
+      <Item value="Employee" priority="0" />
+      <Item value="e" priority="4" />
+      <Item value="Employee`0" priority="1" />
+      <Item value="Object`0" priority="1" />
+      <Item value="o" priority="2" />
+      <Item value="Manager`0" priority="0" />
+      <Item value="OutputClass`0" priority="0" />
+      <Item value="parentClass" priority="0" />
+      <Item value="ParentClass" priority="0" />
+      <Item value="parentClass2" priority="0" />
+      <Item value="Array`0" priority="6" />
+      <Item value="object" priority="7" />
+      <Item value="ConsoleKey`0" priority="0" />
+      <Item value="arrayOfobjects" priority="1" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="Clone`0" priority="0" />
+      <Item value="Diagnostics" priority="0" />
+      <Item value="Collections" priority="2" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="dictionary" priority="0" />
+      <Item value="Dictionary&lt;int,string&gt;" priority="0" />
+      <Item value="sortedList" priority="1" />
+      <Item value="SortedList" priority="0" />
+      <Item value="bankAccountPublic" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="9" />
+      <Item value="ReadLine`0" priority="3" />
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Classes.Mother">
+      <Item value="Go`0" priority="3" />
+      <Item value="_name" priority="1" />
+      <Item value="Work`0" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Hsex" priority="0" />
+      <Item value="Buisy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@OOPFundamentals.Classes.Human">
+      <Item value="Sex`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Classes.Human+Sex">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Polimorphizm.Triangle">
+      <Item value="Draw`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Polimorphizm.FigureExample">
+      <Item value="Draw`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Polimorphizm.Cycle">
+      <Item value="Draw`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Classes.Father">
+      <Item value="AddGoWithMother`0" priority="0" />
+      <Item value="OnGOgoWithMotherChoose`0" priority="0" />
+      <Item value="Feed`0" priority="1" />
+      <Item value="StartFeed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Classes.Daughter">
+      <Item value="Eat`0" priority="1" />
+      <Item value="BecomeHungry`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Round`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.MidpointRounding">
+      <Item value="ToEven" priority="2" />
+      <Item value="AwayFromZero" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.OperationsTypes">
+      <Item value="Operations`0" priority="0" />
+      <Item value="Massives`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.ControlStatements">
+      <Item value="ifStatement`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Loops">
+      <Item value="WhileLoop`0" priority="1" />
+      <Item value="DoWhileLoop`0" priority="0" />
+      <Item value="ForLoop`0" priority="0" />
+      <Item value="ForEachLoop`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Methods">
+      <Item value="MethodsStruct`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Classes">
+      <Item value="ExampleClass`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.GC">
+      <Item value="Collect`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Classes+OutputClass">
+      <Item value="_count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Properties">
+      <Item value="Customer`0" priority="0" />
+      <Item value="CustomerManagerWithAccessorMethods`0" priority="0" />
+      <Item value="CustomerManagerWithProperties2`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Indexers">
+      <Item value="Display`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Indexers+Numbers">
+      <Item value="Odd" priority="0" />
+      <Item value="Even" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.ClassOutRef">
+      <Item value="MethoodOut`0" priority="0" />
+      <Item value="MethoodRef`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.ClassOutRef">
+      <Item value="MethodsCalling`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.MethodModifiers">
+      <Item value="Method`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.MethodModifiers">
+      <Item value="MessageBox`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@OOPFundamentals.Patterns.Singleton">
+      <Item value="GetSingleton" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Patterns.Singleton">
+      <Item value="_name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Structs">
+      <Item value="AccessToStructs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Structs+RectangleStruct">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.DelegatesAndEvents">
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.DelegatesAndEvents+Name">
+      <Item value="CompareLastNames`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.DelegatesAndEvents+Delegates">
+      <Item value="SimpleDelegate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="FormClosing" priority="0" />
+      <Item value="FormClosed" priority="1" />
+      <Item value="Closed" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.ExceptionHandling">
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.OverloadingOperators">
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Encapsulation">
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Encapsulation+Employee">
+      <Item value="Lookup`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Inheritance">
+      <Item value="Casting`0" priority="0" />
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Inheritance+Employee">
+      <Item value="GenProgressReport`0" priority="0" />
+      <Item value="GetYearsEmployed`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Inheritance+ParentClass">
+      <Item value="print`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Inheritance+ParentClass2">
+      <Item value="print`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ConsoleKey">
+      <Item value="Enter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="Assert`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Array">
+      <Item value="Sort`1" priority="1" />
+      <Item value="Reverse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.SortedList">
+      <Item value="Add`0" priority="0" />
+      <Item value="Keys" priority="0" />
+      <Item value="GetByIndex`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Encapsulation+BankAccountPublic">
+      <Item value="GetAmount`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Encapsulation+BankAccountPrivate">
+      <Item value="CustomerName" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

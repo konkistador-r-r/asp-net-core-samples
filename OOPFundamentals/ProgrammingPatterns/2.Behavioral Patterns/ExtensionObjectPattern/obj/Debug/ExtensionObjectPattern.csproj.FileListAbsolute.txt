@@ -1,0 +1,7 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ExtensionObjectPattern\obj\Debug\ExtensionObjectPattern.csprojAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ExtensionObjectPattern\obj\Debug\ExtensionObjectPattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ExtensionObjectPattern\bin\Debug\ExtensionObjectPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ExtensionObjectPattern\bin\Debug\ExtensionObjectPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ExtensionObjectPattern\bin\Debug\ExtensionObjectPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ExtensionObjectPattern\obj\Debug\ExtensionObjectPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ExtensionObjectPattern\obj\Debug\ExtensionObjectPattern.pdb

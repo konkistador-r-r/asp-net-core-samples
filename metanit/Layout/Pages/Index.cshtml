@@ -1,0 +1,25 @@
+﻿@page
+@model Layout.Pages.IndexModel
+@*@{
+    Layout = "_Layout";
+}*@
+@{
+    ViewData["Title"] = "Application";
+}
+
+Hello from app page
+<p><a href="Index?name=Tom&age=35">With parameters Name and Age</a></p>
+<p><a href="Admin">Go to Admin page</a></p>
+<p><a href="Exchange">Go to Exchange page</a></p>
+<p><a href="Person">Go to Person page</a></p>
+<p><a href="Person/5/Tom/35">Go to Person page by route</a></p>
+
+@if (Model.IsCorrect)
+{
+    <p>Name: <b>@Model.Name</b></p>
+    <p>Age: <b>@Model.Age</b></p>
+}
+else
+{
+    <p>Переданы некорректные данные</p>
+}

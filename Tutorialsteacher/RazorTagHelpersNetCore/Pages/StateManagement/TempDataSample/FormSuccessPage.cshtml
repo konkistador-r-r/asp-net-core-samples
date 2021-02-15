@@ -1,0 +1,14 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.StateManagement.TempDataSample.FormSuccessPageModel
+@{
+    ViewData["Title"] = "FormSuccessPage";
+}
+
+<h1>FormSuccessPage</h1>
+
+@*<h4>FormResult: @TempData["FormResult"]</h4>*@
+
+<!-- Can access value second time but not on page refresh -->
+<h4>FormResult: @Model.FormResult</h4>
+
+<h4>EmailAddress: @Model.EmailAddress</h4>

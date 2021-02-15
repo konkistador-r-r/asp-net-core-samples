@@ -1,0 +1,12 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ObserverPattern\bin\Debug\ObserverPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ObserverPattern\bin\Debug\ObserverPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ObserverPattern\bin\Debug\ObserverPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ObserverPattern\obj\Debug\ObserverPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ObserverPattern\obj\Debug\ObserverPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ObserverPattern\obj\Debug\ObserverPattern.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ObserverPattern\bin\Debug\ObserverPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ObserverPattern\bin\Debug\ObserverPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ObserverPattern\bin\Debug\ObserverPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ObserverPattern\obj\Debug\ObserverPattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ObserverPattern\obj\Debug\ObserverPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ObserverPattern\obj\Debug\ObserverPattern.pdb

@@ -1,0 +1,12 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern2\bin\Debug\CommandPattern2.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern2\obj\Debug\CommandPattern2.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern2\bin\Debug\CommandPattern2.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern2\bin\Debug\CommandPattern2.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern2\obj\Debug\CommandPattern2.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern2\obj\Debug\CommandPattern2.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\CommandPattern\CommandPattern2\bin\Debug\CommandPattern2.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\CommandPattern\CommandPattern2\bin\Debug\CommandPattern2.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\CommandPattern\CommandPattern2\bin\Debug\CommandPattern2.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\CommandPattern\CommandPattern2\obj\Debug\CommandPattern2.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\CommandPattern\CommandPattern2\obj\Debug\CommandPattern2.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\CommandPattern\CommandPattern2\obj\Debug\CommandPattern2.pdb

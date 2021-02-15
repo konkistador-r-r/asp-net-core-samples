@@ -1,0 +1,13 @@
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\obj\x86\Debug\AbstractFactoryPattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\obj\x86\Debug\AbstractFactoryPattern.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\obj\x86\Debug\AbstractFactoryPattern.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\obj\x86\Debug\AbstractFactoryPattern.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\obj\x86\Debug\AbstractFactoryPattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\AbstractFactoryPattern\obj\x86\Debug\AbstractFactoryPattern.pdb

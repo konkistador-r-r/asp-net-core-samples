@@ -1,0 +1,108 @@
+﻿@using SortApp.Models
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model IndexViewModel
+<!--импортируем tag-хелперы проекта-->
+@addTagHelper *, SortApp
+
+<style>
+    @@font-face {
+        font-family: 'FontAwesome';
+        src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal
+    }
+
+    .glyphicon {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+    }
+
+    .glyphicon-chevron-down:before {
+        content: "\f078";
+    }
+
+    .glyphicon-chevron-up:before {
+        content: "\f077";
+    }
+</style>
+<style>
+    .table td, .table th {
+        width: 33%;
+    }
+</style>
+
+<h1>Список пользователей</h1>
+
+@{
+    /* Solution 1 - code inside view and use:
+            <a asp-action="Index" asp-route-sortOrder="@ViewBag.NameSort">
+                Имя <i class="glyphicon @(currentNameSortClass)"></i>
+            </a>
+    */
+    /* Solution 2 - create SortHeaderTagHelper
+            <sort-header action="Index"  up="@Model.SortViewModel.Up"
+                    current="@Model.SortViewModel.Current" property="@Model.SortViewModel.NameSort">
+                Имя
+            </sort-header>
+    */
+    //var ascSortClass = "glyphicon-chevron-up";
+    //var descSortClass = "glyphicon-chevron-down";
+    //var noSortClass = "";
+
+    //var curerntSort = @ViewBag.CurrentSort;
+    //var currentNameSortClass = curerntSort == SortState.NameAsc ? ascSortClass : curerntSort == SortState.NameDesc ? descSortClass : noSortClass;
+    //var currentAgeSortClass =  curerntSort  == SortState.AgeAsc ? ascSortClass : curerntSort  == SortState.AgeDesc ? descSortClass : noSortClass;
+    //var currentCompSortClass = curerntSort == SortState.CompanyAsc ? ascSortClass : curerntSort == SortState.CompanyDesc ? descSortClass : noSortClass;
+
+}
+
+<form method="get">
+    <div class="form-inline form-group">
+        <label class="control-label">Имя: </label>
+        <input name="name" class="form-control" />
+
+        <label class="control-label">Компания: </label>
+        <select name="company" asp-items="Model.Companies" class="form-control"></select>
+
+        <input type="submit" value="Фильтр" class="btn btn-default" />
+    </div>
+</form>
+
+<table class="table">
+    <tr>
+        <th>
+            <sort-header action="Index"
+                         up="@Model.SortViewModel.Up"
+                         current="@Model.SortViewModel.Current"
+                         property="@Model.SortViewModel.NameSort">
+                Имя
+            </sort-header>
+        </th>
+        <th>
+            <sort-header action="Index"
+                         up="@Model.SortViewModel.Up"
+                         current="@Model.SortViewModel.Current"
+                         property="@Model.SortViewModel.AgeSort">
+                Возраст
+            </sort-header>
+        </th>
+        <th>
+            <sort-header action="Index"
+                         up="@Model.SortViewModel.Up"
+                         current="@Model.SortViewModel.Current"
+                         property="@Model.SortViewModel.CompanySort">
+                Компания
+            </sort-header>
+        </th>
+    </tr>
+    @foreach (User u in Model.Users)
+    {
+        <tr><td>@u.Name</td><td>@u.Age</td><td>@u.Company.Name</td></tr>
+    }
+</table>

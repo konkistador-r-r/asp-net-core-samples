@@ -1,0 +1,10 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\bin\Debug\netcoreapp2.1\VisitorPattern.deps.json
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\bin\Debug\netcoreapp2.1\VisitorPattern.runtimeconfig.json
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\bin\Debug\netcoreapp2.1\VisitorPattern.runtimeconfig.dev.json
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\bin\Debug\netcoreapp2.1\VisitorPattern.dll
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\obj\Debug\netcoreapp2.1\VisitorPattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\obj\Debug\netcoreapp2.1\VisitorPattern.AssemblyInfoInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\obj\Debug\netcoreapp2.1\VisitorPattern.AssemblyInfo.cs
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\bin\Debug\netcoreapp2.1\VisitorPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\obj\Debug\netcoreapp2.1\VisitorPattern.dll
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\VisitorPattern\obj\Debug\netcoreapp2.1\VisitorPattern.pdb

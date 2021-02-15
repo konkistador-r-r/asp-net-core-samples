@@ -1,0 +1,86 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.TagHelpersSamples.FormactionTagHelperSamplesModel
+@{
+}
+
+<h1>Send SingleRouteParam and data via Get to another page</h1>
+<form class="form-horizontal" method="get">
+    <div class="form-group">
+        <label for="Name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="Name">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default" asp-page="SingleRouteParamPage" asp-route-singleParam="123">Get Data</button>
+        </div>
+    </div>
+</form>
+
+<h1>Send SingleRouteParam and data via Post to another page</h1>
+<form class="form-horizontal" method="post">
+    <div class="form-group">
+        <label for="Name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="Name">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default" asp-page="SingleRouteParamPage" asp-route-singleParam="123">Post Data</button>
+        </div>
+    </div>
+</form>
+
+<h1>Send SingleRouteParam and data via Post to another page and custom page handler</h1>
+<form class="form-horizontal" method="post">
+    <div class="form-group">
+        <label for="Name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="Name">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default" asp-page="SingleRouteParamPage" asp-page-handler="SomePageHandler" asp-route-singleParam="123">Post Data</button>
+        </div>
+    </div>
+</form>
+
+<h1>Send MultipleRouteParam and data via Get to another page</h1>
+<form class="form-horizontal" method="get">
+    <div class="form-group">
+        <label for="Name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="Name">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default" asp-page="MultipleRouteParamPage" asp-route-param1="123" asp-route-param2="456" asp-fragment="frag2">Get Data</button>
+        </div>
+    </div>
+</form>
+
+<h1>Send SingleRouteParam and data via Post to another page</h1>
+<form class="form-horizontal" method="post">
+    <div class="form-group">
+        <label for="Name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="Name">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            @{
+                var d = new Dictionary<string, string>
+                    {
+                   { "param1", "123" },
+                   { "param2", "456" }
+                };
+            }
+            <button type="submit" class="btn btn-default" asp-page="MultipleRouteParamPage" asp-all-route-data="d" asp-fragment="frag2">Post Data</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,14 @@
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\bin\Debug\BuilderPattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\bin\Debug\BuilderPattern.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\obj\x86\Debug\BuilderPattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\obj\x86\Debug\BuilderPattern.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\bin\Debug\BuilderPattern.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\bin\Debug\BuilderPattern.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\obj\x86\Debug\BuilderPattern.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\obj\x86\Debug\BuilderPattern.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\bin\Debug\BuilderPattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\bin\Debug\BuilderPattern.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\obj\x86\Debug\BuilderPattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\obj\x86\Debug\BuilderPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\BuilderPattern\obj\x86\Debug\BuilderPattern.csprojResolveAssemblyReference.cache

@@ -1,0 +1,126 @@
+﻿@page "{myRouteParamName?}"
+@*each rout data paramter is required other vise user get 404*@
+@model RazorTagHelpersNetCore.Pages.ModelBindingSamplesModel
+@{
+    ViewData["Title"] = "ModelBindingSamples";
+}
+
+<h3>@ViewData["errorMessages"]</h3>
+
+<h3>@ViewData["confirmation"]</h3>
+
+<form class="form-horizontal" method="post">
+    <div class="form-group">
+        <label for="Name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" asp-for="Name">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="e-m-a-i-l">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Phone" class="col-sm-2 control-label">Phone</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" asp-for="ContactInfoForFields.Phone">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Address" class="col-sm-2 control-label">Address</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" asp-for="ContactInfoForFields.Address">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="MovieCategoryIds" class="col-sm-12 control-label">Which types of film do you like? (Tick all that apply)</label>
+        <div class="col-sm-10">
+            <input type="checkbox" name="MovieCategoryIds" value="1"> Factual<br />
+            <input type="checkbox" name="MovieCategoryIds" value="2"> Horror<br />
+            <input type="checkbox" name="MovieCategoryIds" value="3"> Historical<br />
+            <input type="checkbox" name="MovieCategoryIds" value="4"> SciFi<br />
+            <input type="checkbox" name="MovieCategoryIds" value="5"> Comedy<br />
+            <input type="checkbox" name="MovieCategoryIds" value="6"> Fantasy<br />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Add multiple employess at once</label>
+        <table class="table table-striped">
+            <tr>
+                <th>FullName</th>
+                <th>OfficePosition</th>
+            </tr>
+            @for (int i = 0; i < 3; i++)
+            {
+                <tr>
+                    <td>
+                        <!-- attention: use asp-for instead of name!  -->
+                        <!-- do not generate Id if do not whant entity with empty props -->
+                        @*<input type="hidden" asp-for="NewEmployees[i].EmployeeId" value="@(i + 1)" />*@
+                        <input type="text" asp-for="NewEmployees[i].FullName" /> <!-- The index can be any value that uniquely identifies a data item.  -->
+                    </td>
+                    <td>
+                        <input type="text" asp-for="NewEmployees[i].OfficePosition" /> <!-- [1].OfficePosition: [index].propertyname or parametername[index].propertyname -->
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Edit multiple employess at once</label>
+        <table class="table table-striped">
+            <tr>
+                <th>ID</th>
+                <th>FullName</th>
+                <th>OfficePosition</th>
+            </tr>
+            @foreach (var employee in Model.EditEmployees)
+            {
+                <tr>
+                    <td>
+                        <!-- The model binders uses the Contacts.Index field value to group other values. -->
+                        <!-- attention: use name instead of asp-for! -->
+                        <input type="hidden" name="EditEmployees.Index" value="@employee.EmployeeId" />
+                        <input type="hidden" name="EditEmployees[@employee.EmployeeId].EmployeeId" value="@employee.EmployeeId" />
+                        ID: @employee.EmployeeId
+                    </td>
+                    <td>
+                        <input type="text" name="EditEmployees[@employee.EmployeeId].FullName" value="@employee.FullName" /> <!-- The index can be any value that uniquely identifies a data item.  -->
+                    </td>
+                    <td>
+                        <input type="text" name="EditEmployees[@employee.EmployeeId].OfficePosition" value="@employee.OfficePosition" /> <!-- [1].OfficePosition: [index].propertyname or parametername[index].propertyname -->
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    <h3>Order Items</h3>
+    <div class="form-group">
+        <label for="Order.Customer" class="col-sm-2 control-label">Customer</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" asp-for="Order.Customer">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Order.OrderItems[0].Item" class="col-sm-2 control-label">Item</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" asp-for="Order.OrderItems[0].Item">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Order.OrderItems[0].Price" class="col-sm-2 control-label">Price</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" asp-for="Order.OrderItems[0].Price">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Register</button>
+        </div>
+    </div>
+</form>
+

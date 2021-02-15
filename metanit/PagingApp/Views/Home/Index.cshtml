@@ -1,0 +1,72 @@
+﻿@using PagingApp.Models
+@model IndexViewModel
+@*подключаем все tag-хелперы*@
+@addTagHelper *, PagingApp
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    @@font-face {
+        font-family: 'FontAwesome';
+        src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal
+    }
+
+    .glyphicon {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+    }
+
+    .glyphicon-chevron-right:before {
+        content: "\f054";
+    }
+
+    .glyphicon-chevron-left:before {
+        content: "\f053";
+    }
+</style>
+
+<h1>Список пользователей</h1>
+
+<table class="table">
+    <tr><th>Имя</th><th>Возраст</th><th>Компания</th></tr>
+    @foreach (User u in Model.Users)
+    {
+        <tr><td>@u.Name</td><td>@u.Age</td><td>@u.Company.Name</td></tr>
+    }
+</table>
+
+@if (Model.PageViewModel.HasPreviousPage)
+{
+    <a asp-action="Index"
+       asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+       class="btn btn-outline-dark">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+        Назад
+    </a>
+}
+@if (Model.PageViewModel.HasNextPage)
+{
+    <a asp-action="Index"
+       asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+       class="btn btn-outline-dark">
+        Вперед
+        <i class="glyphicon glyphicon-chevron-right"></i>
+    </a>
+}
+
+@*Так как название хелпера состоит из нескольких частей: PageLinkTagHelper, то при использовании все эти части разделяются дефисом (суффикс TagHelper отбрасывается): page-link. То же самое касается и свойств хелпера. Так, чтобы передать значение для свойства PageModel, нам надо использовать атрибут page-model.*@
+<page-link page-model="Model.PageViewModel" page-action="Index"></page-link>
+
+<ul class="pagination">
+    <li class="page-item"><a class="page-link" href="/?page=1">1</a></li>
+    <li class="page-item active"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link" href="/?page=3">3</a></li>
+</ul>

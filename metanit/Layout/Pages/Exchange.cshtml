@@ -1,0 +1,15 @@
+﻿@page
+@model Layout.Pages.ExchangeModel
+@{
+    ViewData["Title"] = "Обмен валюты";
+}
+        
+Hello from Exchange page
+
+<h2>@Model.Message</h2>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+    <input type="number" name="sum" />
+    <input type="submit" value="Send via Post" />
+</form>

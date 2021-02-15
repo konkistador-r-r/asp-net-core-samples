@@ -1,0 +1,61 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.CapturingUseInputModel
+@{
+    ViewData["Title"] = "CapturingUseInput";
+}
+
+<h1>Capturing user input</h1>
+
+<form method="post">
+    <fieldset>
+        <legend>TagHelpers declaration</legend>
+
+        @Html.Label("FirstName")
+        @Html.TextBox("FirstName")
+        <br />
+        @Html.Label("Age")
+        @Html.Editor("Age")
+        <br />
+        @Html.Label("HasPhoto")
+        @Html.CheckBox("HasPhoto")
+        <br />
+        @Html.Label("Notes")
+        @Html.TextArea("Notes", new { @class = "form-control", rows = "5", cols = "30" })
+        <br />
+        @Html.Display("Question1")<br />
+        @foreach (var question1Answer in Model.Question1Answers)
+        {
+            @Html.RadioButton("Question1Answer", question1Answer.Key) @Html.Raw("&nbsp;") @question1Answer.Value<br />
+        }
+        <br />
+        <div class="form-group">
+            @Html.Label("ColorCode", null, new { @class = "control-label" })
+            @Html.TextBox("ColorCode", null, new { @class = "form-control", type = "color" })
+        </div>
+        <div class="form-group">
+            @*@Html.DateTime - do not exists*@
+            @Html.Label("DateOfBirth")
+            <input class="form-control" asp-for="DateOfBirth" />
+        </div>
+        <div class="form-group">
+            @Html.Label("BirthDate")
+            <input class="form-control" asp-for="BirthDate" />
+        </div>
+        <div class="form-group">
+            @Html.Label("BirthTime")
+            <input class="form-control" asp-for="BirthTime" />
+        </div>
+        @*Month and week input types are implemented currently by Edge, Chrome and Opera*@
+        <div class="form-group">
+            @Html.Label("BirthMonth")
+            <input class="form-control" asp-for="BirthMonth" />
+        </div>
+        <div class="form-group">
+            @Html.Label("BirthWeek")
+            <input class="form-control" asp-for="BirthWeek" />
+        </div>
+    </fieldset>
+
+    <input class="btn btn-sm btn-secondary" type="submit" value="Post form" />
+    <button class="btn btn-sm btn-secondary" type="submit">Post form</button>
+</form>

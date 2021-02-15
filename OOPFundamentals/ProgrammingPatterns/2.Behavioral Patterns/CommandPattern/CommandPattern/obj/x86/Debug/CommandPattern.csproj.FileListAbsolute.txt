@@ -1,0 +1,18 @@
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\bin\Debug\CommandPattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\bin\Debug\CommandPattern.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.Form1.resources
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.Properties.Resources.resources
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.exe
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.pdb
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.exe
+D:\My Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.pdb
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.csprojResolveAssemblyReference.cache
+D:\DropBox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.csproj.GenerateResource.Cache
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\bin\Debug\CommandPattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\bin\Debug\CommandPattern.pdb
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.csprojResolveAssemblyReference.cache
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.Form1.resources
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.Properties.Resources.resources
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.csproj.GenerateResource.Cache
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.exe
+C:\Users\S.Vlasenko\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\CommandPattern\obj\x86\Debug\CommandPattern.pdb

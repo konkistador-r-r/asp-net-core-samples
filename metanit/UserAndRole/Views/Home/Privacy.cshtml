@@ -1,0 +1,14 @@
+﻿@using System.Security.Claims
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+@foreach (var claim in User.Claims.ToList())
+{
+    <p>@claim.Type : @claim.Value</p>
+}
+<div>Город: @User.FindFirst(x => x.Type == ClaimTypes.Locality).Value</div>
+<div>Компания: @User.FindFirst(x => x.Type == "company").Value</div>

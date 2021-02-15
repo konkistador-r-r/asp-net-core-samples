@@ -1,0 +1,58 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.TagHelpersSamples.HtmlHelperInputSampleModel
+@{
+    ViewData["Title"] = "HtmlHelperInputSample";
+}
+
+<h1>HtmlHelperInputSample</h1>
+
+<form method="post">
+    <fieldset>
+        <legend>The Input Tag Helper</legend>
+        <input asp-for="Member.PersonId" /><br />
+        <input asp-for="Member.Name" /><br />
+        <input asp-for="Member.Email" /><br />
+        <input asp-for="Member.Password" /><br />
+        <input asp-for="Member.Telephone" /><br />
+        <input asp-for="Member.Website" /><br />
+        <input asp-for="Member.DateOfBirth" /><br />
+        <input asp-for="Member.Salary" /><br />
+        <input asp-for="Member.SendSpam" /><br />
+        <input asp-for="Member.NumberOfCats" /><br />
+        <input asp-for="Member.Selfie" /><br />
+    </fieldset>
+    <fieldset>
+        <legend>MVC HTML Input TagHelper declaration</legend>
+        <!-- https://www.tutorialsteacher.com/mvc/htmlhelper-editor-editorfor -->
+        <!-- renders data with in some template -->
+        <!-- EditorFor, doesn't have a overload to override html properties, so can`t override id attribute or any, only add additional -->
+        <label>First Name</label>
+        <input type="text" id="txtFirstName" name="FirstName" />
+        <br />
+        <label>First Name</label>
+        @Html.Editor("FirstName")
+        <br />
+        @Html.EditorFor(Model => Model.FirstName)
+        <br />
+        @Html.Editor("FirstName", new { htmlAttributes = new { id = "myCustomId1", data_id = "myAdditionalDataCustomId1", dataProp = "myAdditionalDataCustomId1" } })
+        <br />
+        @Html.EditorFor(Model => Model.FirstName, new { htmlAttributes = new { id = "myCustomId1", data_id = "myAdditionalDataCustomId1", dataProp = "myAdditionalDataCustomId1" } })
+
+        <br />
+        <label>Age</label>
+        @Html.Editor("Age")
+        <br />
+        <label>Salary</label>
+        @Html.Editor("Salary")
+        <br />
+        <label>Has photo</label>
+        @Html.Editor("HasPhoto")
+        <br />
+        <label>Seniority</label>
+        @Html.Editor("SeniorityEnum")
+        <br />
+        <label>Date of birth</label>
+        @Html.Editor("DateOfBirth")
+    </fieldset>
+    <button>Submit</button>
+</form>

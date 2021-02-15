@@ -1,0 +1,7 @@
+D:\Projects\GitHubFree\asp-net-core-samples\metanit\TDD\Sample1\ReprterFeature\bin\Debug\ReprterFeature.exe.config
+D:\Projects\GitHubFree\asp-net-core-samples\metanit\TDD\Sample1\ReprterFeature\bin\Debug\ReprterFeature.exe
+D:\Projects\GitHubFree\asp-net-core-samples\metanit\TDD\Sample1\ReprterFeature\bin\Debug\ReprterFeature.pdb
+D:\Projects\GitHubFree\asp-net-core-samples\metanit\TDD\Sample1\ReprterFeature\obj\Debug\ReprterFeature.exe
+D:\Projects\GitHubFree\asp-net-core-samples\metanit\TDD\Sample1\ReprterFeature\obj\Debug\ReprterFeature.pdb
+D:\Projects\GitHubFree\asp-net-core-samples\metanit\TDD\Sample1\ReprterFeature\obj\Debug\ReprterFeature.csprojAssemblyReference.cache
+D:\Projects\GitHubFree\asp-net-core-samples\metanit\TDD\Sample1\ReprterFeature\obj\Debug\ReprterFeature.csproj.CoreCompileInputs.cache

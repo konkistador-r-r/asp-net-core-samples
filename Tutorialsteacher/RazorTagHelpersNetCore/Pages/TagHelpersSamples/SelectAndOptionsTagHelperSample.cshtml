@@ -1,0 +1,43 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.TagHelpersSamples.SelectAndOptionsTagHelperSampleModel
+@{
+}
+
+<select asp-for="Number" asp-items="Model.Items">
+    <option value="">Pick one</option>
+</select>
+<br />
+<select asp-for="Number2">
+    <option value="">Pick one</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+</select>
+<br />
+<select asp-for="Number3" asp-items="Model.Items2">
+    <option value="">Pick one</option>
+</select>
+<br />
+<select asp-for="Person" asp-items="@(new SelectList(Model.People, "Id", "Name"))">
+    <option value="">Pick one</option>
+</select>
+<br />
+<select asp-for="Persons" multiple asp-items="@(new SelectList(Model.People, "Id", "Name"))">
+    <option value="">Pick one</option>
+</select>
+<br />
+<select asp-items="Model.CarsList">
+    <option value="">Pick one</option>
+</select>
+<br />
+<select asp-for="DayOfWeek" asp-items="Html.GetEnumSelectList<DayOfWeek>()">
+    <option value="">Pick one</option>
+</select>
+<br />
+<select asp-for="EntityKey" asp-items="Model.EntityOptions">
+    <option value="">Pick one</option>
+</select>
+<br />
+<select asp-for="Employee" asp-items="Model.Staff">
+    <option value="">Pick one</option>
+</select>

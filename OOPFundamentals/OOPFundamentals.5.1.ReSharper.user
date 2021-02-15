@@ -1,0 +1,731 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F24B66AC-77DB-4174-BE14-4B803D213D63/d:Model/f:Child.cs" caret="721" fromTop="25" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:AttributesTutorial.cs" caret="3235" fromTop="26" />
+      <File id="F24B66AC-77DB-4174-BE14-4B803D213D63/d:Model/f:Human.cs" caret="774" fromTop="24" />
+      <File id="10DCB43F-7FBE-4389-8A3F-4FC7E3056248/f:Program.cs" caret="1399" fromTop="36" />
+      <File id="F24B66AC-77DB-4174-BE14-4B803D213D63/d:Interface/f:IAdult.cs" caret="154" fromTop="8" />
+      <File id="F24B66AC-77DB-4174-BE14-4B803D213D63/f:Program.cs" caret="1075" fromTop="11" />
+      <File id="F24B66AC-77DB-4174-BE14-4B803D213D63/d:Model/f:Society.cs" caret="1494" fromTop="13" />
+      <File id="10DCB43F-7FBE-4389-8A3F-4FC7E3056248/d:DAL/f:DataStore.cs" caret="4077" fromTop="45" />
+      <File id="907E5CDE-A18E-402C-AA5C-15CEA59F92D9/f:Form1.Designer.cs" caret="0" fromTop="0" />
+      <File id="907E5CDE-A18E-402C-AA5C-15CEA59F92D9/f:Document.cs" caret="404" fromTop="5" />
+      <File id="907E5CDE-A18E-402C-AA5C-15CEA59F92D9/f:CommandManager.cs" caret="555" fromTop="11" />
+      <File id="907E5CDE-A18E-402C-AA5C-15CEA59F92D9/f:Commands.cs" caret="569" fromTop="14" />
+      <File id="907E5CDE-A18E-402C-AA5C-15CEA59F92D9/f:Form1.cs" caret="985" fromTop="29" />
+      <File id="F812FA82-2FD2-41AC-9023-1A15BF237627/f:CarFactory.cs" caret="129" fromTop="4" />
+      <File id="F812FA82-2FD2-41AC-9023-1A15BF237627/f:Client.cs" caret="124" fromTop="5" />
+      <File id="F812FA82-2FD2-41AC-9023-1A15BF237627/f:Program.cs" caret="0" fromTop="0" />
+      <File id="6129C2FE-14DA-4FCC-A431-5221682BFED6/f:SingletonGeneric.cs" caret="194" fromTop="9" />
+      <File id="6129C2FE-14DA-4FCC-A431-5221682BFED6/f:Earth.cs" caret="822" fromTop="29" />
+      <File id="6129C2FE-14DA-4FCC-A431-5221682BFED6/f:Program.cs" caret="321" fromTop="13" />
+      <File id="C05F4EA7-2D7A-4EAA-A3DA-22E2678553A6/f:HappyMeal.cs" caret="3399" fromTop="44" />
+      <File id="C05F4EA7-2D7A-4EAA-A3DA-22E2678553A6/f:Program.cs" caret="294" fromTop="12" />
+      <File id="CA6CB5F9-C0A4-4DD2-B53C-6E6765E305BE/f:Program.cs" caret="513" fromTop="18" />
+      <File id="CA6CB5F9-C0A4-4DD2-B53C-6E6765E305BE/f:Employees.cs" caret="0" fromTop="0" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Interfaces.cs" caret="958" fromTop="19" />
+      <File id="BC67C1E4-1551-48DA-976E-29F8286ED0F8/f:Program.cs" caret="353" fromTop="14" />
+      <File id="BC67C1E4-1551-48DA-976E-29F8286ED0F8/f:Auto.cs" caret="951" fromTop="9" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Structs.cs" caret="3916" fromTop="21" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="8041" fromTop="18" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="2053" fromTop="14" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Program.cs" caret="2070" fromTop="22" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="BC67C1E4-1551-48DA-976E-29F8286ED0F8/f:Auto.cs" caret="951" fromTop="9" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Structs.cs" caret="2027" fromTop="27" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Structs.cs" caret="1386" fromTop="11" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Structs.cs" caret="1282" fromTop="10" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Structs.cs" caret="3313" fromTop="18" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Structs.cs" caret="4228" fromTop="26" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Program.cs" caret="1315" fromTop="18" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Structs.cs" caret="4105" fromTop="23" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="6444" fromTop="12" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="7733" fromTop="27" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="7532" fromTop="24" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="8198" fromTop="32" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="8456" fromTop="36" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="8113" fromTop="21" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="7920" fromTop="15" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Classes.cs" caret="8257" fromTop="30" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="659" fromTop="13" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="565" fromTop="16" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="1254" fromTop="18" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="1136" fromTop="17" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="223" fromTop="10" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="899" fromTop="13" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="2086" fromTop="23" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="2851" fromTop="26" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="2046" fromTop="12" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="2297" fromTop="21" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="1877" fromTop="11" />
+      <File id="6F843DF0-AB4A-479C-BFCA-789CD55B20DD/f:Program.cs" caret="2851" fromTop="31" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Program.cs" caret="1999" fromTop="15" />
+      <File id="ACE4C687-A66D-4E32-96C5-AC08EFB333DF/f:Program.cs" caret="2070" fromTop="22" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="47" />
+      <Item value="UriHostNameType`0" priority="0" />
+      <Item value="int" priority="33" />
+      <Item value="string" priority="31" />
+      <Item value="Enum`0" priority="2" />
+      <Item value="public" priority="115" />
+      <Item value="void" priority="36" />
+      <Item value="Console`0" priority="36" />
+      <Item value="Human`0" priority="13" />
+      <Item value="return" priority="32" />
+      <Item value="value" priority="12" />
+      <Item value="_age" priority="2" />
+      <Item value="IWork`0" priority="1" />
+      <Item value="using" priority="8" />
+      <Item value="Interfacrs" priority="1" />
+      <Item value="this" priority="16" />
+      <Item value="Sex`0" priority="3" />
+      <Item value="Mother`0" priority="5" />
+      <Item value="sex" priority="1" />
+      <Item value="_sex" priority="0" />
+      <Item value="new" priority="69" />
+      <Item value="virtual" priority="9" />
+      <Item value="override" priority="8" />
+      <Item value="Classes" priority="0" />
+      <Item value="var" priority="35" />
+      <Item value="Femail" priority="0" />
+      <Item value="mother" priority="9" />
+      <Item value="protected" priority="20" />
+      <Item value="_name" priority="0" />
+      <Item value="Name" priority="3" />
+      <Item value="class" priority="31" />
+      <Item value="Triangle`0" priority="0" />
+      <Item value="triangle" priority="0" />
+      <Item value="FigureExample`0" priority="1" />
+      <Item value="list" priority="0" />
+      <Item value="foreach" priority="12" />
+      <Item value="delegate" priority="3" />
+      <Item value="father" priority="10" />
+      <Item value="MyDelegate" priority="0" />
+      <Item value="if" priority="19" />
+      <Item value="null" priority="13" />
+      <Item value="GoWithMother" priority="0" />
+      <Item value="Go`0" priority="0" />
+      <Item value="daughter" priority="7" />
+      <Item value="bool" priority="5" />
+      <Item value="false" priority="7" />
+      <Item value="true" priority="6" />
+      <Item value="remove" priority="0" />
+      <Item value="EventHandler`0" priority="2" />
+      <Item value="zero" priority="0" />
+      <Item value="myBools" priority="0" />
+      <Item value="myDoubles" priority="0" />
+      <Item value="decimal" priority="11" />
+      <Item value="AwayFromZero" priority="0" />
+      <Item value="MidpointRounding`0" priority="0" />
+      <Item value="double" priority="2" />
+      <Item value="static" priority="38" />
+      <Item value="myInt" priority="0" />
+      <Item value="String`0" priority="1" />
+      <Item value="throw" priority="0" />
+      <Item value="Methods`0" priority="0" />
+      <Item value="System" priority="11" />
+      <Item value="Lessons" priority="1" />
+      <Item value="AliasForNamespace" priority="0" />
+      <Item value="GC`0" priority="0" />
+      <Item value="byte" priority="0" />
+      <Item value="long" priority="0" />
+      <Item value="ID" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="size" priority="0" />
+      <Item value="enum" priority="1" />
+      <Item value="numbers" priority="0" />
+      <Item value="EnvironmentVariableTarget`0" priority="1" />
+      <Item value="switch" priority="1" />
+      <Item value="case" priority="2" />
+      <Item value="break" priority="1" />
+      <Item value="count" priority="1" />
+      <Item value="is" priority="2" />
+      <Item value="arrSize" priority="0" />
+      <Item value="i" priority="0" />
+      <Item value="out" priority="2" />
+      <Item value="result" priority="0" />
+      <Item value="ref" priority="1" />
+      <Item value="internal" priority="3" />
+      <Item value="namespace" priority="2" />
+      <Item value="abstract" priority="16" />
+      <Item value="sealed" priority="3" />
+      <Item value="base" priority="7" />
+      <Item value="explicit" priority="0" />
+      <Item value="extern" priority="0" />
+      <Item value="WeakReference`0" priority="0" />
+      <Item value="MethodModifiers`0" priority="0" />
+      <Item value="readonly" priority="1" />
+      <Item value="OOPFundamentals" priority="0" />
+      <Item value="Patterns" priority="0" />
+      <Item value="Singleton`0" priority="0" />
+      <Item value="rectangleClass" priority="0" />
+      <Item value="RectangleClass" priority="0" />
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="1" />
+      <Item value="RectangleStruct" priority="1" />
+      <Item value="Base64FormattingOptions`0" priority="3" />
+      <Item value="Eventdemo`0" priority="0" />
+      <Item value="Form`0" priority="0" />
+      <Item value="event" priority="3" />
+      <Item value="notifier" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="b" priority="0" />
+      <Item value="Matrix`0" priority="0" />
+      <Item value="operator" priority="0" />
+      <Item value="matrix" priority="1" />
+      <Item value="matrix1" priority="0" />
+      <Item value="Employee" priority="0" />
+      <Item value="e" priority="4" />
+      <Item value="Employee`0" priority="1" />
+      <Item value="Object`0" priority="1" />
+      <Item value="o" priority="2" />
+      <Item value="Manager`0" priority="0" />
+      <Item value="OutputClass`0" priority="0" />
+      <Item value="parentClass" priority="0" />
+      <Item value="ParentClass" priority="0" />
+      <Item value="parentClass2" priority="0" />
+      <Item value="Array`0" priority="6" />
+      <Item value="object" priority="7" />
+      <Item value="ConsoleKey`0" priority="0" />
+      <Item value="arrayOfobjects" priority="1" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="Clone`0" priority="0" />
+      <Item value="Diagnostics" priority="0" />
+      <Item value="Collections" priority="2" />
+      <Item value="Dictionary" priority="1" />
+      <Item value="dictionary" priority="0" />
+      <Item value="Dictionary&lt;int,string&gt;" priority="0" />
+      <Item value="sortedList" priority="1" />
+      <Item value="SortedList" priority="0" />
+      <Item value="bankAccountPublic" priority="0" />
+      <Item value="interface" priority="1" />
+      <Item value="typeof" priority="7" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Guid`0" priority="7" />
+      <Item value="_id" priority="3" />
+      <Item value="Id" priority="1" />
+      <Item value="prop" priority="2" />
+      <Item value="age" priority="0" />
+      <Item value="Gender" priority="0" />
+      <Item value="gemder" priority="0" />
+      <Item value="where" priority="6" />
+      <Item value="THuman`0" priority="5" />
+      <Item value="Lazy" priority="0" />
+      <Item value="Lazy&lt;Dictionary&lt;string,Guid&gt;&gt;" priority="0" />
+      <Item value="_relationships" priority="0" />
+      <Item value="Society" priority="1" />
+      <Item value="Society&lt;Human&gt;" priority="0" />
+      <Item value="human" priority="7" />
+      <Item value="Human" priority="1" />
+      <Item value="Female" priority="1" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="set" priority="0" />
+      <Item value="key" priority="0" />
+      <Item value="Dictionary&lt;string,Guid&gt;" priority="1" />
+      <Item value="as" priority="2" />
+      <Item value="Relations`0" priority="3" />
+      <Item value="Money`0" priority="1" />
+      <Item value="relations" priority="0" />
+      <Item value="Model" priority="0" />
+      <Item value="Child`0" priority="0" />
+      <Item value="parent" priority="0" />
+      <Item value="child" priority="0" />
+      <Item value="relation" priority="1" />
+      <Item value="Daughter" priority="0" />
+      <Item value="default" priority="0" />
+      <Item value="humans" priority="0" />
+      <Item value="givedMoney" priority="0" />
+      <Item value="Attribute`0" priority="1" />
+      <Item value="_relations" priority="0" />
+      <Item value="ThreadStaticAttribute`0" priority="1" />
+      <Item value="p1" priority="0" />
+      <Item value="attribute" priority="0" />
+      <Item value="pearson1" priority="0" />
+      <Item value="Count`1" priority="0" />
+      <Item value="KeyValuePair&lt;string,Guid&gt;" priority="0" />
+      <Item value="pearson2" priority="0" />
+      <Item value="adultBoyfriend" priority="0" />
+      <Item value="List" priority="2" />
+      <Item value="List&lt;Mother&gt;" priority="0" />
+      <Item value="Mother" priority="0" />
+      <Item value="IQueryable`0" priority="1" />
+      <Item value="_dataStore" priority="1" />
+      <Item value="Father" priority="0" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="Father`0" priority="3" />
+      <Item value="Guid" priority="0" />
+      <Item value="id" priority="0" />
+      <Item value="f" priority="0" />
+      <Item value="AppDomainSetup`0" priority="1" />
+      <Item value="List&lt;T&gt;" priority="0" />
+      <Item value="Daughter`0" priority="3" />
+      <Item value="MotherId" priority="0" />
+      <Item value="m" priority="0" />
+      <Item value="FatherId" priority="0" />
+      <Item value="d" priority="0" />
+      <Item value="Fathers" priority="1" />
+      <Item value="AttributeUsage" priority="0" />
+      <Item value="AttributeTargets`0" priority="0" />
+      <Item value="MaxLength" priority="0" />
+      <Item value="Type`0" priority="0" />
+      <Item value="member" priority="0" />
+      <Item value="uint" priority="1" />
+      <Item value="maxLength" priority="1" />
+      <Item value="IDisposable`0" priority="0" />
+      <Item value="DataStore`0" priority="0" />
+      <Item value="context" priority="1" />
+      <Item value="Environment`0" priority="0" />
+      <Item value="IAdult`0" priority="0" />
+      <Item value="carFactory" priority="1" />
+      <Item value="AbstractCar`0" priority="0" />
+      <Item value="AbstractEngine`0" priority="0" />
+      <Item value="_engine" priority="0" />
+      <Item value="hm2" priority="0" />
+      <Item value="Earth" priority="1" />
+      <Item value="_instance" priority="0" />
+      <Item value="args" priority="0" />
+      <Item value="Earth`0" priority="0" />
+      <Item value="earth" priority="0" />
+      <Item value="Creator`0" priority="1" />
+      <Item value="ProgrammerConreteCreator`0" priority="0" />
+      <Item value="product" priority="0" />
+      <Item value="get" priority="1" />
+      <Item value="Auto`0" priority="3" />
+      <Item value="field" priority="0" />
+      <Item value="auto1" priority="0" />
+      <Item value="GetField" priority="0" />
+      <Item value="Binder`0" priority="0" />
+      <Item value="BindingFlags`0" priority="0" />
+      <Item value="Document" priority="0" />
+      <Item value="documentTextbox" priority="0" />
+      <Item value="_document" priority="2" />
+      <Item value="CopyCommand`0" priority="0" />
+      <Item value="PasteCommand`0" priority="0" />
+      <Item value="UndoableCommand`0" priority="0" />
+      <Item value="BoldCommand`0" priority="0" />
+      <Item value="const" priority="0" />
+      <Item value="lock" priority="1" />
+      <Item value="Threading" priority="1" />
+      <Item value="Monitor`0" priority="0" />
+      <Item value="Thread" priority="2" />
+      <Item value="ThreadStart`0" priority="0" />
+      <Item value="Classes`0" priority="0" />
+      <Item value="Product`0" priority="1" />
+      <Item value="List&lt;Product&gt;" priority="0" />
+      <Item value="products" priority="1" />
+      <Item value="Product" priority="0" />
+      <Item value="p" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="24" />
+      <Item value="ReadLine`0" priority="6" />
+      <Item value="Write`0" priority="0" />
+      <Item value="Read`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Classes.Mother">
+      <Item value="Go`0" priority="3" />
+      <Item value="_name" priority="1" />
+      <Item value="Work`0" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Hsex" priority="0" />
+      <Item value="Buisy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@OOPFundamentals.Classes.Human">
+      <Item value="Sex`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Classes.Human+Sex">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Polimorphizm.Triangle">
+      <Item value="Draw`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="3" />
+      <Item value="AddRange`0" priority="1" />
+      <Item value="Select`2" priority="3" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="ForEach`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Polimorphizm.FigureExample">
+      <Item value="Draw`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Polimorphizm.Cycle">
+      <Item value="Draw`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Classes.Father">
+      <Item value="AddGoWithMother`0" priority="0" />
+      <Item value="OnGOgoWithMotherChoose`0" priority="0" />
+      <Item value="Feed`0" priority="1" />
+      <Item value="StartFeed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Classes.Daughter">
+      <Item value="Eat`0" priority="1" />
+      <Item value="BecomeHungry`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Round`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.MidpointRounding">
+      <Item value="ToEven" priority="2" />
+      <Item value="AwayFromZero" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.OperationsTypes">
+      <Item value="Operations`0" priority="0" />
+      <Item value="Massives`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.ControlStatements">
+      <Item value="ifStatement`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Loops">
+      <Item value="WhileLoop`0" priority="1" />
+      <Item value="DoWhileLoop`0" priority="0" />
+      <Item value="ForLoop`0" priority="0" />
+      <Item value="ForEachLoop`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Methods">
+      <Item value="MethodsStruct`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Classes">
+      <Item value="ExampleClass`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.GC">
+      <Item value="Collect`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Classes+OutputClass">
+      <Item value="_count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Properties">
+      <Item value="Customer`0" priority="0" />
+      <Item value="CustomerManagerWithAccessorMethods`0" priority="0" />
+      <Item value="CustomerManagerWithProperties2`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Indexers">
+      <Item value="Display`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Indexers+Numbers">
+      <Item value="Odd" priority="0" />
+      <Item value="Even" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.ClassOutRef">
+      <Item value="MethoodOut`0" priority="0" />
+      <Item value="MethoodRef`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.ClassOutRef">
+      <Item value="MethodsCalling`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.MethodModifiers">
+      <Item value="Method`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.MethodModifiers">
+      <Item value="MessageBox`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@OOPFundamentals.Patterns.Singleton">
+      <Item value="GetSingleton" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OOPFundamentals.Patterns.Singleton">
+      <Item value="_name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Structs">
+      <Item value="AccessToStructs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Structs+RectangleStruct">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.DelegatesAndEvents">
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.DelegatesAndEvents+Name">
+      <Item value="CompareLastNames`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.DelegatesAndEvents+Delegates">
+      <Item value="SimpleDelegate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="FormClosing" priority="0" />
+      <Item value="FormClosed" priority="1" />
+      <Item value="Closed" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.ExceptionHandling">
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.OverloadingOperators">
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Encapsulation">
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Encapsulation+Employee">
+      <Item value="Lookup`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.Inheritance">
+      <Item value="Casting`0" priority="0" />
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Inheritance+Employee">
+      <Item value="GenProgressReport`0" priority="0" />
+      <Item value="GetYearsEmployed`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Inheritance+ParentClass">
+      <Item value="print`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Inheritance+ParentClass2">
+      <Item value="print`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ConsoleKey">
+      <Item value="Enter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="Assert`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Array">
+      <Item value="Sort`1" priority="1" />
+      <Item value="Reverse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="0" />
+      <Item value="Keys" priority="0" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="ContainsKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.SortedList">
+      <Item value="Add`0" priority="0" />
+      <Item value="Keys" priority="0" />
+      <Item value="GetByIndex`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Encapsulation+BankAccountPublic">
+      <Item value="GetAmount`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Encapsulation+BankAccountPrivate">
+      <Item value="CustomerName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest.Model.Human">
+      <Item value="GetType`0" priority="0" />
+      <Item value="Relationships" priority="0" />
+      <Item value="Id" priority="1" />
+      <Item value="InvokeNeedManey`0" priority="0" />
+      <Item value="EnoughMoney" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Lazy`1">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:THuman">
+      <Item value="Id" priority="1" />
+      <Item value="Age" priority="4" />
+      <Item value="Name" priority="0" />
+      <Item value="Walk`0" priority="1" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="Relationships" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TrialTest.Model.Sex">
+      <Item value="Female" priority="0" />
+      <Item value="Male" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString`0" priority="0" />
+      <Item value="GetCustomAttributesData`0" priority="0" />
+      <Item value="GetCustomAttributes`0" priority="1" />
+      <Item value="GetProperty`0" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="GetFields`0" priority="1" />
+      <Item value="GetMembers`0" priority="1" />
+      <Item value="GetProperties`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest.Model.Society`1">
+      <Item value="Relationships" priority="3" />
+      <Item value="Id" priority="1" />
+      <Item value="GiveMoney`0" priority="0" />
+      <Item value="Work`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TrialTest.Model.Relations">
+      <Item value="Daughter" priority="1" />
+      <Item value="Mother" priority="1" />
+      <Item value="Father" priority="1" />
+      <Item value="Husband" priority="0" />
+      <Item value="Wife" priority="0" />
+      <Item value="Son" priority="0" />
+      <Item value="Boyfriend" priority="1" />
+      <Item value="Girl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest.Model.Relations">
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TrialTest.Model.Society`1">
+      <Item value="InTouch`0" priority="0" />
+      <Item value="GroupWalking`0" priority="0" />
+      <Item value="GetMarried`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="Zero" priority="2" />
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lessons.MainClass">
+      <Item value="MainMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest.Model.SocialAttitude">
+      <Item value="Couple" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest2.DAL.DataStore">
+      <Item value="Fathers" priority="3" />
+      <Item value="Mothers" priority="5" />
+      <Item value="Daughters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest2.DAL.Father">
+      <Item value="Id" priority="2" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TrialTest2.DAL.Sex">
+      <Item value="Male" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest2.DAL.Mother">
+      <Item value="Name" priority="2" />
+      <Item value="Id" priority="2" />
+      <Item value="Daughter" priority="1" />
+      <Item value="Error" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest2.DAL.Daughter">
+      <Item value="MotherId" priority="1" />
+      <Item value="FatherId" priority="1" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AttributeTargets">
+      <Item value="Property" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest2.DAL.Human">
+      <Item value="OnValidate" priority="0" />
+      <Item value="InvokeOnValidate`0" priority="0" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest2.DAL.Validation">
+      <Item value="MaxLength" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="GetCustomAttributes`0" priority="0" />
+      <Item value="GetValue`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="0" />
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.UInt32">
+      <Item value="MinValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrialTest2.DAL.DataAccess">
+      <Item value="GetFather`0" priority="2" />
+      <Item value="GetAllFathers`0" priority="0" />
+      <Item value="GetAllMothers`0" priority="0" />
+      <Item value="GetAllFDaughters`0" priority="1" />
+      <Item value="GetDaughter`0" priority="1" />
+      <Item value="GetMother`0" priority="0" />
+      <Item value="AddMother`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="NewLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AbstractFactoryPattern.AbstractEngine">
+      <Item value="MaxSpeed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AbstractFactoryPattern.CarFactory">
+      <Item value="CreateCar`0" priority="0" />
+      <Item value="CreateEngine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BuilderPattern.Director">
+      <Item value="Construct`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BuilderPattern.HappyMealBuilder">
+      <Item value="GetProduct`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BuilderPattern.HappyMealProduct">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SingletonPattern.Earth">
+      <Item value="Instance`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualConstructorPattern.Creator">
+      <Item value="FactoryMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VirtualConstructorPattern.EmployeeProduct">
+      <Item value="Status`0" priority="1" />
+      <Item value="Salary`0" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PrototypePattern.AutoConrete1">
+      <Item value="MemberwiseClone`0" priority="0" />
+      <Item value="Clone`0" priority="0" />
+      <Item value="MaxSpeed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.FieldInfo">
+      <Item value="GetValue`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
+      <Item value="NonPublic" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CommandPattern.CommandManager">
+      <Item value="ExecuteCommand`0" priority="1" />
+      <Item value="Undo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CommandPattern.Document">
+      <Item value="Copy`0" priority="1" />
+      <Item value="Paste`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="SelectedText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Monitor">
+      <Item value="Enter`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="MinValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lessons.Product">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Globalization.CultureInfo">
+      <Item value="InvariantCulture" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

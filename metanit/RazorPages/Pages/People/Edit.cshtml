@@ -1,0 +1,28 @@
+﻿@page "{id:int}"
+@model RazorPages.Pages.People.EditModel
+@{
+    ViewBag.Title = "Редактирование пользователя";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form method="post">
+    <div asp-validation-summary="All"></div>
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Person.Id" />
+    <div>
+        <label>Name</label>
+        <div>
+            <input type="text" asp-for="Person.Name" />
+            <span asp-validation-for="Person.Name"></span>
+        </div>
+    </div>
+    <div>
+        <label>Age</label>
+        <div>
+            <input type="number" asp-for="Person.Age" />
+            <span asp-validation-for="Person.Age"></span>
+        </div>
+    </div>
+    <input type="submit" value="Сохранить" />
+</form>

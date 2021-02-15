@@ -1,0 +1,12 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Flyweight\bin\Debug\Flyweight.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Flyweight\bin\Debug\Flyweight.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Flyweight\bin\Debug\Flyweight.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Flyweight\obj\Debug\Flyweight.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Flyweight\obj\Debug\Flyweight.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\Flyweight\obj\Debug\Flyweight.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\Flyweight\bin\Debug\Flyweight.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\Flyweight\bin\Debug\Flyweight.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\Flyweight\bin\Debug\Flyweight.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\Flyweight\obj\Debug\Flyweight.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\Flyweight\obj\Debug\Flyweight.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\Flyweight\obj\Debug\Flyweight.pdb

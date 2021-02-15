@@ -1,0 +1,316 @@
+Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (9ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (7ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (14ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.'ApplicationContext' disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (14ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (8ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (14ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.'ApplicationContext' disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (15ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (8ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (14ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.'ApplicationContext' disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (11ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (8ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (14ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.'ApplicationContext' disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (40065ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (9ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (25ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.'ApplicationContext' disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (14ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (15ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.'ApplicationContext' disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (12ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (17ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.'ApplicationContext' disposed.queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    DbFirst.ApplicationContext, 
+    DiagnosticsLogger<Query>
+)queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    DbFirst.ApplicationContext, 
+    DiagnosticsLogger<Query>
+)
+    .SingleOrDefault()queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    DbFirst.ApplicationContext, 
+    DiagnosticsLogger<Query>
+)
+    .SingleOrDefault()Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (217ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (46ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (8ms).Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Users]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;Executed DbCommand (52ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Users]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (8ms).Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Age], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Age], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Age], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Age], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (7ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (7ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (9ms).Executing DbCommand [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0, [Name] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;Executed DbCommand (12ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0, [Name] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (12ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (15ms).Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Users]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Users]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (12ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (11ms).Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Executing DbCommand [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0, [Name] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;Executed DbCommand (12ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0, [Name] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (12ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (12ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (16ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (13ms).Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]A data reader was disposed.SaveChanges starting for 'ApplicationContext'.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.SaveChanges starting for 'ApplicationContext'.Executing update commands individually as the number of batchable commands (2) is smaller than the minimum batch size (4).SaveChanges completed for 'ApplicationContext' with 2 entities written to the database.SaveChanges starting for 'ApplicationContext'.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.SaveChanges starting for 'ApplicationContext'.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.SaveChanges starting for 'ApplicationContext'.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.SaveChanges starting for 'ApplicationContext'.SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (15ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.DetectChanges starting for 'ApplicationContext'.DetectChanges completed for 'ApplicationContext'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (15ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (13ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Unchanged 'User.Age' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Executing update commands individually as the number of batchable commands (2) is smaller than the minimum batch size (4).Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (16ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (9ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (11ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 2 entities written to the database.'ApplicationContext' disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (14ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (9ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Unchanged 'User.Age' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Executing update commands individually as the number of batchable commands (2) is smaller than the minimum batch size (4).Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (8ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (16ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (9ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (14ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 2 entities written to the database.'ApplicationContext' disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (12ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.queryContext => new QueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, User>, 
+    DbFirst.ApplicationContext, 
+    DiagnosticsLogger<Query>
+)
+    .SingleOrDefault()Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (8ms).Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESCExecuted DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Age], [u].[Name]
+FROM [Users] AS [u]
+ORDER BY [u].[Id] DESCContext 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.SaveChanges starting for 'ApplicationContext'.DetectChanges starting for 'ApplicationContext'.Unchanged 'User.Name' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Unchanged 'User.Age' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.An 'User' entity tracked by 'ApplicationContext' changed from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.DetectChanges completed for 'ApplicationContext'.Opening connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Opened connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Beginning transaction with isolation level 'Unspecified'.Began transaction with isolation level 'ReadCommitted'.Executing update commands individually as the number of batchable commands (2) is smaller than the minimum batch size (4).Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (9ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (15ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (8ms).Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;Executed DbCommand (11ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Users] SET [Age] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;A data reader was disposed.Committing transaction.Committing transaction.Closing connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Closed connection to database 'EFFirstApp' on server '(localdb)\mssqllocaldb'.Disposing transaction.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.An 'User' entity tracked by 'ApplicationContext' changed from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.SaveChanges completed for 'ApplicationContext' with 2 entities written to the database.'ApplicationContext' disposed.

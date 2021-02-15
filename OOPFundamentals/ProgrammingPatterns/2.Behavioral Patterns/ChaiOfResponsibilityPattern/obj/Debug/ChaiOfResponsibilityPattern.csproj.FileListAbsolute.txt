@@ -1,0 +1,19 @@
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ChaiOfResponsibilityPattern\bin\Debug\ChaiOfResponsibilityPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ChaiOfResponsibilityPattern\bin\Debug\ChaiOfResponsibilityPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ChaiOfResponsibilityPattern\bin\Debug\ChaiOfResponsibilityPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.csprojResolveAssemblyReference.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\bin\Debug\ChaiOfResponsibilityPattern.exe.config
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\bin\Debug\ChaiOfResponsibilityPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\bin\Debug\ChaiOfResponsibilityPattern.pdb
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.csproj.CoreCompileInputs.cache
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.exe
+D:\Dropbox\DEVELOPER\Research for a job\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.pdb
+D:\Projects\GitHubFree\asp-net-core-samples\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\bin\Debug\ChaiOfResponsibilityPattern.exe.config
+D:\Projects\GitHubFree\asp-net-core-samples\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\bin\Debug\ChaiOfResponsibilityPattern.exe
+D:\Projects\GitHubFree\asp-net-core-samples\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\bin\Debug\ChaiOfResponsibilityPattern.pdb
+D:\Projects\GitHubFree\asp-net-core-samples\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.csprojAssemblyReference.cache
+D:\Projects\GitHubFree\asp-net-core-samples\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.csproj.CoreCompileInputs.cache
+D:\Projects\GitHubFree\asp-net-core-samples\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.exe
+D:\Projects\GitHubFree\asp-net-core-samples\OOPFundamentals\ProgrammingPatterns\2.Behavioral Patterns\ChaiOfResponsibilityPattern\obj\Debug\ChaiOfResponsibilityPattern.pdb

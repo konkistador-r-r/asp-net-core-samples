@@ -1,0 +1,33 @@
+﻿@page
+@model RazorTagHelpersNetCore.Pages.TagHelpersSamples.HtmlHelperLabelSampleModel
+@{
+    ViewData["Title"] = "HtmlHelperLabelSample";
+}
+
+<h1>HtmlHelperLabelSample</h1>
+
+<form method="post">
+    <fieldset>
+        <legend>Label TagHelper declaration</legend>
+        <label asp-for="FirstName" id="myCustomId1" class="text-danger"></label>
+        <br />
+        <label asp-for="FirstName">Change to First-Name</label>
+    </fieldset>
+    <fieldset>
+        <legend>MVC HTML Label TagHelper declaration</legend>
+        <!-- https://www.tutorialsteacher.com/mvc/htmlhelper-label-labelfor -->
+        <label>First Name</label>
+        <br />
+        @Html.Label("FirstName")
+        <br />
+        @Html.LabelFor(Model => Model.FirstName)
+        <br />
+        @Html.Label("FirstName", null, new { id = "myCustomId1" })
+        <br />
+        @Html.Label("FirstName", "Change to First-Name")
+        <br />
+        @Html.LabelFor(Model => Model.FirstName, "Change to First-Name")
+        <br />
+        @Html.LabelFor(Model => Model.FirstName, new { id = "myCustomId2" })
+    </fieldset>
+</form>
