@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Отправка файлов";
+}
+
+<h2>Try</h2>
+
+<div>
+    <ul>
+        <li>@Html.ActionLink("FilePathResult(FileResult)", "GetFile", "SendFile")</li>
+        <li>@Html.ActionLink("FileContentResult(FileResult)", "GetFileFromBytes", "SendFile")</li>
+        <li>@Html.ActionLink("FileStreamResult(FileResult)", "GetFileFromStream", "SendFile")</li>
+    </ul>
+</div>
+
+

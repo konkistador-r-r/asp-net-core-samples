@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Контекст запроса HttpContext. Куки. Сессии";
+}
+
+<h2>Try</h2>
+
+<div>
+    <ul>
+        <li>@Html.ActionLink("Информация о контексте запроса", "GetHttpContextInfo", "HttpContextInfo")</li>
+        <li>@Html.ActionLink("Отправка ответа", "GetResultByResponseInstance", "HttpContextInfo")</li>
+        <li>@Html.ActionLink("Определение пользователя", "GetUserInfo", "HttpContextInfo")</li>
+    </ul>
+</div>

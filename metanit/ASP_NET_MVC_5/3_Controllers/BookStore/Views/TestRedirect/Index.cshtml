@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Test Redirect";
+}
+
+<h2>Try</h2>
+
+<div>
+    <ul>
+        <li>@Html.ActionLink("Test Redirect ?id=1", "TestRedirect", "TestRedirect", new { id = 1 }, null)</li>
+        <li>@Html.ActionLink("Test Redirect ?id=2", "TestRedirect", "TestRedirect", new { id = 2 }, null)</li>
+        <li>@Html.ActionLink("Test Redirect Permanent ?id=1", "TestRedirectPermanent", "TestRedirect", new { id = 1 }, null)</li>
+        <li>@Html.ActionLink("Test Redirect Permanent ?id=2", "TestRedirectPermanent", "TestRedirect", new { id = 2 }, null)</li>
+        <li>@Html.ActionLink("Test RedirectToRoute", "TestRedirectToRoute", "TestRedirect")</li>
+        <li>@Html.ActionLink("Test RedirectToAction", "TestRedirectToAction", "TestRedirect")</li>
+
+        <li>@Html.ActionLink("Отправка Cтатус кода спец методом", "CheckAge", "TestRedirect", new { age = -2 }, null)</li>
+        <li>@Html.ActionLink("Отправка Cтатус кода", "CheckAge", "TestRedirect", new { age = 10 }, null)</li>
+        <li>@Html.ActionLink("Отправка ошибок", "CheckAge", "TestRedirect", new { age = 31 }, null)</li>
+        <li>@Html.ActionLink("Отправка ошибок", "CheckAge", "TestRedirect", new { age = 32 }, null)</li>
+    </ul>
+</div>
+
